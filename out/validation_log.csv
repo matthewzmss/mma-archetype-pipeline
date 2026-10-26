@@ -1,0 +1,14 @@
+check,rows,note
+event names repaired via headline match,25,"{'UFC Fight Night: Grasso vs. Shevchenko 2': 'Noche UFC: Grasso vs. Shevchenko 2', 'UFC Fight Night: Lopes vs. Silva': 'Noche UFC: Lopes vs. Silva'}"
+results missing event date,2,dropped
+duplicate fight URLs in results,25,dropped
+stat rows with no fighter/round,42,dropped
+landed > attempted,0,kept (none expected)
+target split != sig landed,0,kept; sig total used as truth
+position split != sig landed,0,kept; sig total used as truth
+stat rows unmatched to a result,6,dropped
+control time > round time,0,clipped to round time
+rounds with zero/unknown duration,0,dropped
+rounds without exactly 2 fighters,0,dropped
+stat rows whose fighter name has no profile,0,dropped
+result rows with unresolvable fighter,0,dropped
