@@ -55,8 +55,10 @@ h1 span{color:var(--accent)}
 .tag{font-family:var(--f-display);font-weight:600;text-transform:uppercase;letter-spacing:.04em;font-size:13px;padding:0 6px;border-radius:2px;color:var(--bg)}
 .tag.sec{background:transparent!important;border:1px solid currentColor;padding:0 5px}
 .conf{font-family:var(--f-mono);font-size:11px}
-.card{background:var(--panel);border:1px solid var(--line);padding:18px;display:flex;flex-direction:column;gap:16px;min-width:0;position:sticky;top:max(12px,env(safe-area-inset-top,0px))}
-@media (max-width:860px){.card{position:static}}
+.card{background:var(--panel);border:1px solid var(--line);padding:18px;display:flex;flex-direction:column;gap:16px;min-width:0;position:sticky;top:max(12px,env(safe-area-inset-top,0px));
+  max-height:calc(100vh - 24px);overflow:auto;overscroll-behavior:contain}
+.card>*{flex-shrink:0}
+@media (max-width:860px){.card{position:static;max-height:none;overflow:visible}}
 .cname{font-family:var(--f-display);font-weight:700;font-size:clamp(28px,4vw,38px);line-height:1;text-transform:uppercase;margin:0}
 .cnick{color:var(--muted);font-style:italic}
 .tape{display:grid;grid-template-columns:repeat(auto-fit,minmax(92px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
@@ -84,6 +86,69 @@ h3{font-family:var(--f-display);font-weight:600;font-size:16px;letter-spacing:.0
 .l5{letter-spacing:.15em}
 .l5 .W{color:var(--good)} .l5 .L{color:var(--bad)}
 .empty{padding:24px;color:var(--muted)}
+/* fighter card: photo header, tabs, career tiles, fighter-vs-opponent tables, fight log */
+.hero{display:flex;gap:16px;align-items:flex-end}
+.photo{flex:0 0 auto;width:clamp(110px,26%,190px);align-self:stretch;display:flex;align-items:flex-end;justify-content:center;
+  background:radial-gradient(ellipse at 50% 90%,var(--soft),transparent 70%);border-bottom:2px solid var(--accent)}
+.photo img{display:block;width:100%;height:auto;max-height:320px;object-fit:contain;object-position:bottom}
+.hinfo{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:10px}
+.ptags{display:flex;flex-wrap:wrap;gap:6px}
+.ptag{font-family:var(--f-mono);font-size:11px;border:1px solid var(--line);padding:1px 6px;border-radius:2px;color:var(--muted)}
+.ptag.hot{color:var(--accent);border-color:var(--accent)}
+.bio{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:6px 14px;margin:0;font-size:13px}
+.bio div{min-width:0}
+.bio dt{font-family:var(--f-display);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:12px;color:var(--muted)}
+.bio dd{margin:0;overflow-wrap:anywhere}
+.ext{font-size:13px;color:var(--muted)}
+.ext a{color:var(--ink)}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);overflow-x:auto;position:sticky;top:-18px;background:var(--panel);z-index:1;margin:0 -18px;padding:0 18px}
+.tabs button{font-family:var(--f-display);font-weight:600;font-size:15px;letter-spacing:.06em;text-transform:uppercase;background:none;border:0;border-bottom:2px solid transparent;
+  color:var(--muted);padding:8px 10px;cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--accent)}
+.tabs button:focus-visible,.rb:focus-visible,.fx summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.pane{display:flex;flex-direction:column;gap:18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.tile{background:var(--panel);padding:8px 10px;display:flex;flex-direction:column;gap:1px;min-width:0}
+.tile small{font-family:var(--f-display);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:12px;color:var(--muted)}
+.tile b{font-family:var(--f-mono);font-weight:500;font-size:20px;font-variant-numeric:tabular-nums}
+.tile span{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.stk{display:grid;grid-template-columns:72px minmax(0,1fr);gap:6px 10px;align-items:center;font-size:13px}
+.stack{display:flex;height:12px;background:var(--track)}
+.stack i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:8px;height:8px;margin-right:5px}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+table.cmp{width:100%;border-collapse:collapse;font-size:13px}
+.cmp td,.cmp th{padding:4px 6px;border-bottom:1px solid var(--soft)}
+.cmp th{font-weight:600;text-align:center}
+.cmp td{font-family:var(--f-mono);font-variant-numeric:tabular-nums;width:35%;white-space:nowrap}
+.cmp td.r{text-align:right}
+.cmp td small{color:var(--muted);font-size:11px}
+@media (max-width:560px){.cmp td small{display:block}.cmp td{width:30%}}
+.cmp .hn{font-family:var(--f-display);font-weight:600;font-size:14px;text-transform:uppercase;letter-spacing:.04em;white-space:normal}
+.cmp .hn.me{color:var(--accent)} .cmp .hn.op{color:var(--grap)}
+.cmp tr.sec th{text-align:left;color:var(--muted);font-family:var(--f-display);text-transform:uppercase;letter-spacing:.06em;font-size:12px;padding-top:12px}
+.split{display:block;height:3px;background:var(--grap);margin-top:3px}
+.split i{display:block;height:100%;background:var(--accent)}
+.fights{display:flex;flex-direction:column;gap:6px}
+.fx{border:1px solid var(--line)}
+.fx summary{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:0 10px;align-items:center;padding:8px 10px;cursor:pointer;list-style:none}
+.fx summary::-webkit-details-marker{display:none}
+.fx[open] summary,.fx summary:hover{background:var(--soft)}
+.res{font-family:var(--f-display);font-weight:700;font-size:15px;min-width:30px;text-align:center;padding:2px 4px;color:var(--bg);background:var(--muted);border-radius:2px}
+.res.W{background:var(--good)} .res.L{background:var(--bad)}
+.fo,.fm{min-width:0}
+.fo b{font-weight:600}
+.fo a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--muted);text-underline-offset:3px}
+.fo a:hover{text-decoration-color:var(--accent)}
+.fo small,.fm small{display:block;color:var(--muted);font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fm{text-align:right;font-size:13px}
+.fb{padding:10px;display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--line)}
+.rds{display:flex;gap:4px;flex-wrap:wrap}
+.rb{font-family:var(--f-mono);font-size:12px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:3px;padding:3px 9px;cursor:pointer}
+.rb[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fdet{font-size:12px;color:var(--muted)}
+.fdet a{color:var(--muted)}
 @media (prefers-reduced-motion:no-preference){.bar .fi{transition:width .25s ease}}
 </style>
 
@@ -130,7 +195,7 @@ const FAM={"One Punch Man":"strike","Brawler":"strike","Pressure Fighter":"strik
  "Submission Threat":"grap","Grappler / Wrestler":"grap","Point-Fighting Wrestler":"grap","Ground-and-Pound Wrestler":"grap","All-in-One":"all"};
 const col=a=>`var(--${FAM[a]})`;
 const DIVS=["Flyweight","Bantamweight","Featherweight","Lightweight","Welterweight","Middleweight","Light Heavyweight","Heavyweight","Women's Strawweight","Women's Flyweight","Women's Bantamweight"];
-const st={q:"",div:"",conf:"",ros:"",arch:"",sort:"name",sel:null};
+const st={q:"",div:"",conf:"",ros:"",arch:"",sort:"name",sel:null,tab:"ov"};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
@@ -138,7 +203,7 @@ $('m-n').textContent=`${F.length} active fighters`;
 $('m-asof').textContent=`Data through ${DATA.meta.asof}`;
 $('div').innerHTML='<option value="">All divisions</option>'+DIVS.filter(d=>F.some(f=>f.d===d)).map(d=>`<option>${esc(d)}</option>`).join('');
 try{const s=JSON.parse(localStorage.getItem('usi')||'{}');Object.assign(st,s);}catch(e){}
-function save(){try{localStorage.setItem('usi',JSON.stringify({div:st.div,sort:st.sort}))}catch(e){}}
+function save(){try{localStorage.setItem('usi',JSON.stringify({div:st.div,sort:st.sort,tab:st.tab}))}catch(e){}}
 $('div').value=st.div;$('sort').value=st.sort;
 
 function filtered(){
@@ -165,24 +230,72 @@ function renderList(){
     <div class="rd conf">${esc(f.d.replace("Women's ","W ").replace("weight","wt"))} · ${f.c}${f.src.includes('may be released')?' · ?':''}</div></div>`).join('');
   if(!st.sel||!r.some(f=>f.id===st.sel)){select(r[0].id,false)}
 }
-function bar(label,pct,num,top){
+function bar(label,pct,num,top,neutral,tip){
   const w=pct==null?0:Math.round(pct*100);
-  const c=w>=70?'var(--good)':w<=30?'var(--bad)':'var(--muted)';
-  return `<div class="bar${top?' top':''}"><span class="lab" title="${esc(label)}">${esc(label)}</span><span class="tr"><span class="fi" style="width:${w}%;background:${c}"></span></span><span class="num">${num}</span></div>`;
+  const c=neutral?'var(--muted)':w>=70?'var(--good)':w<=30?'var(--bad)':'var(--muted)';
+  return `<div class="bar${top?' top':''}"><span class="lab" title="${esc(tip||label)}">${esc(label)}</span><span class="tr"><span class="fi" style="width:${w}%;background:${c}"></span></span><span class="num">${num}</span></div>`;
 }
 const pctf=v=>v==null?"–":(v*100).toFixed(0)+"%";
 function fmt(k,v){if(v==null)return"–";if(["sig_acc","sig_def","td_acc","td_def","ctrl_pct","ctrl_against_pct","clinch_share","ko_win_share","sub_win_share","dec_win_share","ko_loss_rate"].includes(k))return pctf(v);return v.toFixed(2)}
+const fmtMet=(v,t)=>v==null?"–":t==="p"?pctf(v):t==="x"?v.toFixed(2)+"×":t==="m"?v.toFixed(1):t==="i"?String(Math.round(v)):v.toFixed(2);
+const ord=n=>{const s=["th","st","nd","rd"],v=n%100;return n+(s[(v-20)%10]||s[v]||s[0])};
+const mmss=s=>s==null?"–":`${Math.floor(s/60)}:${String(Math.round(s%60)).padStart(2,"0")}`;
+const n2=x=>x==null||!isFinite(x)?"–":x.toFixed(2);
+const pc=(a,b)=>b?Math.round(100*a/b)+"%":"–";
+
+// round stats: each fight has R=[[seconds,[fighter stats],[opponent stats]],...] in meta.rk order
+const RKI=Object.fromEntries(DATA.meta.rk.map((k,i)=>[k,i]));
+const g=(t,k)=>t[RKI[k]];
+function sumR(rounds){const me=DATA.meta.rk.map(()=>0),op=me.slice();let sec=0;
+  rounds.forEach(([s,a,b])=>{sec+=s;a.forEach((x,i)=>me[i]+=x);b.forEach((x,i)=>op[i]+=x)});return{sec,me,op}}
+const SROWS=[["Knockdowns","KD"],["Sig. strikes","SIG.STR._L","SIG.STR._A"],["Total strikes","TOTAL STR._L","TOTAL STR._A"],["Takedowns","TD_L","TD_A"],
+  ["Sub. attempts","SUB.ATT"],["Reversals","REV."],["Control time","CTRL_S",0,"t"],["§","Sig. strikes by target"],["Head","HEAD_L","HEAD_A"],["Body","BODY_L","BODY_A"],["Leg","LEG_L","LEG_A"],
+  ["§","Sig. strikes by position"],["Distance","DISTANCE_L","DISTANCE_A"],["Clinch","CLINCH_L","CLINCH_A"],["Ground","GROUND_L","GROUND_A"]];
+function cell(t,l,a,k){const x=g(t,l);if(k==="t")return mmss(x);if(!a)return x;const y=g(t,a);return `${x}<small> of ${y} · ${pc(x,y)}</small>`}
+function cmpTable(me,op,a,b){
+  return `<table class="cmp"><tr><td class="hn me">${esc(a)}</td><th></th><td class="hn op r">${esc(b)}</td></tr>`+SROWS.map(([lab,l,at,k])=>{
+    if(lab==="§")return `<tr class="sec"><th colspan="3">${l}</th></tr>`;
+    const x=g(me,l),y=g(op,l),s=x+y?x/(x+y):.5;
+    return `<tr><td>${cell(me,l,at,k)}</td><th>${lab}<span class="split"><i style="width:${(s*100).toFixed(0)}%"></i></span></th><td class="r">${cell(op,l,at,k)}</td></tr>`}).join('')+`</table>`;
+}
+const tile=(l,v,sub)=>`<div class="tile"><small>${l}</small><b>${v}</b>${sub?`<span>${sub}</span>`:""}</div>`;
+function stack(label,parts){const t=parts.reduce((s,p)=>s+p[1],0)||1;
+  return `<span>${label}</span><div class="stack" role="img" aria-label="${esc(label+': '+parts.map(p=>`${p[0]} ${Math.round(100*p[1]/t)}%`).join(', '))}">${parts.map(([n,v,c])=>`<i style="width:${100*v/t}%;background:${c}" title="${n}: ${v} (${Math.round(100*v/t)}%)"></i>`).join('')}</div>`}
+
+let cur=null;
 function select(id,scroll=true){
-  st.sel=id;const f=F.find(x=>x.id===id);if(!f)return;
+  st.sel=id;const f=F.find(x=>x.id===id);if(!f)return;cur=f;
   document.querySelectorAll('.row').forEach(r=>r.setAttribute('aria-selected',r.dataset.id===id));
+  renderCard();$('card').scrollTop=0;
+  if(scroll){const r=$('card').getBoundingClientRect();if(r.top<0||r.top>window.innerHeight*0.6)$('card').scrollIntoView({behavior:'smooth',block:'start'});}
+}
+function renderCard(){
+  const f=cur,u=f.u;
+  const TABS=[["ov","Overview"],["car","Career stats"],["met","All metrics"],["fi",`Fights (${f.fi.length})`]];
+  const tags=u?[...u.tags.map(t=>[t,/#|title|champ|pfp/i.test(t)]),...Object.entries(u.hero).map(([k,v])=>[`${v} ${k}`,false])]:[];
+  const unit={"Weight":" lb","Leg reach":'"'};
+  const bio=u?Object.entries(u.bio).filter(([k,v])=>v&&!["Age","Height","Reach","Status"].includes(k))
+    .map(([k,v])=>[k,/^\d+(\.\d+)?$/.test(v)?(+v)+(unit[k]||""):v]):[];
+  $('card').innerHTML=`
+    <div class="hero">${u&&u.img?`<div class="photo"><img src="${esc(u.img)}" alt="${esc(f.n)}" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`:""}
+    <div class="hinfo">
+      <div><p class="cname">${esc(f.n)}</p>${f.k?`<span class="cnick">“${esc(f.k)}”</span>`:""}</div>
+      ${tags.length?`<div class="ptags">${tags.map(([t,h])=>`<span class="ptag${h?' hot':''}">${esc(t)}</span>`).join('')}</div>`:""}
+      <div class="verdict"><span class="tag" style="background:${col(f.p)}">${esc(f.p)}</span>${f.s?`<span class="tag sec" style="color:${col(f.s)}">${esc(f.s)}</span>`:""}
+        <span class="conf">${f.c} confidence</span></div>
+      <div class="ext">${u&&u.rec?`Pro record <b>${esc(u.rec)}</b> · `:""}UFC record <b>${esc(f.rec)}</b>${u?` · <a href="${esc(u.url)}" target="_blank" rel="noopener">UFC.com profile ↗</a>`:""}</div>
+      ${bio.length?`<dl class="bio">${bio.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>`:""}
+    </div></div>
+    <div class="tabs" role="tablist">${TABS.map(([k,l])=>`<button role="tab" data-tab="${k}" aria-selected="${st.tab===k}">${l}</button>`).join('')}</div>
+    <div class="pane" role="tabpanel">${({ov:paneOverview,car:paneCareer,met:paneMetrics,fi:paneFights}[st.tab]||paneOverview)(f)}</div>`;
+}
+function paneOverview(f){
   const order=A.map((a,i)=>[a,f.f[i]??0]).sort((x,y)=>y[1]-x[1]);
   const ft=h=>h?`${Math.floor(h/12)}'${h%12}"`:"–";
   const l5=(f.l5||"").split("").map(c=>`<span class="${c}">${c}</span>`).join("");
   const srcNote={"official roster":"On the official roster","fought since roster snapshot":"Fought since the last roster update","recent activity":"Roster status estimated from a fight in the last 24 months","recent activity (may be released)":"Roster status estimated: lost their last fight over a year ago, so may have been released"}[f.src]||"";
-  $('card').innerHTML=`
-    <div><p class="cname">${esc(f.n)}</p>${f.k?`<span class="cnick">“${esc(f.k)}”</span>`:""}</div>
-    <div class="verdict"><span class="tag" style="background:${col(f.p)}">${esc(f.p)}</span>${f.s?`<span class="tag sec" style="color:${col(f.s)}">${esc(f.s)}</span>`:""}
-      <span class="conf">${f.c} confidence · ${f.uf} UFC fights · ${f.min} min</span>${f.aio&&f.p!=="All-in-One"&&f.s!=="All-in-One"?'<span class="conf">· meets All-in-One bar</span>':""}</div>
+  return `
+    <div class="verdict"><span class="conf">${f.uf} UFC fights · ${f.min} min in the cage</span>${f.aio&&f.p!=="All-in-One"&&f.s!=="All-in-One"?'<span class="conf">· meets All-in-One bar</span>':""}</div>
     <div class="tape">
       <div><small>Division</small><span>${esc(f.d)}</span></div><div><small>UFC record</small><span>${esc(f.rec)}</span></div>
       <div><small>Last 5</small><span class="l5">${l5}</span></div><div><small>Age</small><span>${f.age??"–"}</span></div>
@@ -196,7 +309,60 @@ function select(id,scroll=true){
       <div><h3>Division rank</h3><div class="bars">${S.map(([k,l,lo],i)=>{const [v,p]=f.x[i];return bar(l,p==null?null:(lo?1-p:p),fmt(k,v),false)}).join('')}</div></div>
     </div>
     <p class="note">${srcNote}.</p>`;
-  if(scroll){const r=$('card').getBoundingClientRect();if(r.top<0||r.top>window.innerHeight*0.6)$('card').scrollIntoView({behavior:'smooth',block:'start'});}
+}
+function paneCareer(f){
+  const withR=f.fi.filter(x=>x.R.length),T=sumR(withR.flatMap(x=>x.R)),me=T.me,op=T.op,mn=T.sec/60||1;
+  if(!withR.length)return `<p class="empty">No round-by-round stats recorded for this fighter.</p>`;
+  const sl=g(me,"SIG.STR._L"),sa=g(me,"SIG.STR._A"),osl=g(op,"SIG.STR._L"),osa=g(op,"SIG.STR._A"),tl=g(me,"TD_L"),ta=g(me,"TD_A"),otl=g(op,"TD_L"),ota=g(op,"TD_A");
+  let ws=0;for(const x of f.fi){if(x.r!=="W")break;ws++}
+  const C1="var(--accent)",C2="var(--strike)",C3="var(--grap)";
+  return `
+    <div><h3>UFC career averages</h3><div class="tiles">
+      ${tile("Sig. landed / min",n2(sl/mn),`${sl} landed`)}${tile("Sig. absorbed / min",n2(osl/mn),`${osl} absorbed`)}
+      ${tile("Striking accuracy",pc(sl,sa),`${sl} of ${sa}`)}${tile("Striking defense",pc(osa-osl,osa),`${osa-osl} of ${osa} avoided`)}
+      ${tile("Total strikes / min",n2(g(me,"TOTAL STR._L")/mn),`${g(me,"TOTAL STR._L")} of ${g(me,"TOTAL STR._A")}`)}${tile("Knockdowns / 15",n2(g(me,"KD")/mn*15),`${g(me,"KD")} scored · ${g(op,"KD")} suffered`)}
+      ${tile("Takedowns / 15",n2(tl/mn*15),`${tl} landed`)}${tile("Takedown accuracy",pc(tl,ta),`${tl} of ${ta}`)}
+      ${tile("Takedown defense",pc(ota-otl,ota),`${ota-otl} of ${ota} stopped`)}${tile("Sub. attempts / 15",n2(g(me,"SUB.ATT")/mn*15),`${g(me,"SUB.ATT")} total`)}
+      ${tile("Control / 15 min",mmss(g(me,"CTRL_S")/mn*15),`${mmss(g(me,"CTRL_S"))} total`)}${tile("Controlled / 15 min",mmss(g(op,"CTRL_S")/mn*15),`${mmss(g(op,"CTRL_S"))} total`)}
+      ${tile("Avg fight time",mmss(T.sec/withR.length),`${Math.round(mn)} min in ${withR.length} fights`)}${tile("Reversals / 15",n2(g(me,"REV.")/mn*15),`${g(me,"REV.")} total`)}
+    </div></div>
+    <div><h3>Results</h3><div class="tiles">
+      ${tile("UFC record",esc(f.rec),`${f.uf} fights · since ${f.first.slice(0,4)}`)}${tile("Win streak",ws,ws?"current":"lost/drew last fight")}
+      ${tile("Wins by KO/TKO",f.ko,pc(f.ko,f.w)+" of wins")}${tile("Wins by sub",f.sb,pc(f.sb,f.w)+" of wins")}${tile("Wins by decision",f.dc,pc(f.dc,f.w)+" of wins")}
+      ${tile("Losses by KO/TKO",f.kol,pc(f.kol,f.l)+" of losses")}${tile("Losses by sub",f.sbl,pc(f.sbl,f.l)+" of losses")}${tile("Losses by decision",f.dcl,pc(f.dcl,f.l)+" of losses")}
+      ${tile("Round-1 finishes",f.r1,"KO or sub in R1")}${tile("Title fights",f.tf,"")}
+    </div></div>
+    <div><h3>Where the significant strikes land</h3><div class="stk">
+      ${stack("Landed",[["Head",g(me,"HEAD_L"),C1],["Body",g(me,"BODY_L"),C2],["Leg",g(me,"LEG_L"),C3]])}
+      ${stack("Absorbed",[["Head",g(op,"HEAD_L"),C1],["Body",g(op,"BODY_L"),C2],["Leg",g(op,"LEG_L"),C3]])}
+      <span></span><div class="legend"><span><i style="background:${C1}"></i>Head</span><span><i style="background:${C2}"></i>Body</span><span><i style="background:${C3}"></i>Leg</span></div>
+      ${stack("Landed",[["Distance",g(me,"DISTANCE_L"),C1],["Clinch",g(me,"CLINCH_L"),C2],["Ground",g(me,"GROUND_L"),C3]])}
+      ${stack("Absorbed",[["Distance",g(op,"DISTANCE_L"),C1],["Clinch",g(op,"CLINCH_L"),C2],["Ground",g(op,"GROUND_L"),C3]])}
+      <span></span><div class="legend"><span><i style="background:${C1}"></i>Distance</span><span><i style="background:${C2}"></i>Clinch</span><span><i style="background:${C3}"></i>Ground</span></div>
+    </div></div>
+    <div><h3>Career totals vs. opponents</h3>${cmpTable(me,op,f.n,"Opponents")}</div>
+    <p class="note">Raw totals over every UFC fight with round stats — the same method UFCStats and UFC.com use. The All metrics tab is recency-weighted and adjusted for small samples, so its numbers differ.</p>`;
+}
+function paneMetrics(f){
+  const M=DATA.meta.mets,groups=[...new Set(M.map(m=>m[2]))];
+  return `<p class="note" style="margin:0">Every metric the archetype model uses. Bars show rank within the division (right = better; grey = a style measure with no better or worse). Hover a label for the exact percentile.</p>
+    <div class="mgrid">${groups.map(gr=>`<div><h3>${gr}</h3><div class="bars">${M.map((m,i)=>[m,f.m[i]]).filter(([m])=>m[2]===gr).map(([[k,l,_,dir,t],[val,p]])=>
+      bar(l,p==null?null:(dir<0?1-p:p),fmtMet(val,t),false,dir===0,p==null?l:`${l}: ${ord(Math.round(p*100))} percentile in division${dir<0?" (lower is better)":""}`)).join('')}</div></div>`).join('')}</div>`;
+}
+function paneFights(f){
+  if(!f.fi.length)return `<p class="empty">No UFC fights recorded.</p>`;
+  return `<div class="fights">${f.fi.map((x,i)=>`<details class="fx" data-i="${i}"${i===0?" open":""}><summary>
+    <span class="res ${x.r}">${x.r}</span>
+    <span class="fo"><b>${x.oid?`<a href="#" data-go="${x.oid}">${esc(x.o)}</a>`:esc(x.o)}</b><small>${x.dt} · ${esc(x.ev)}</small></span>
+    <span class="fm">${esc(x.me)}<small>${x.t?"Title · ":""}R${x.er} ${mmss(x.es)}${x.sr?` · ${x.sr}-rd`:""}</small></span>
+    </summary><div class="fb">${fightBody(f,x,0)}</div></details>`).join('')}</div>`;
+}
+function fightBody(f,x,rd){
+  if(!x.R.length)return `<p class="fdet">No round stats recorded for this fight.</p>`;
+  const T=rd?{me:x.R[rd-1][1],op:x.R[rd-1][2]}:sumR(x.R);
+  return `<div class="rds">${["Total",...x.R.map((_,i)=>`R${i+1}`)].map((l,i)=>`<button class="rb" data-rd="${i}" aria-pressed="${i===rd}">${l}</button>`).join('')}</div>
+    ${cmpTable(T.me,T.op,f.n,x.o)}
+    <p class="fdet">${esc(x.wc)}${x.de?` · ${esc(x.de.replace(/\.(?=\S)/g," · ").replace(/\.$/,""))}`:""} · <a href="http://ufcstats.com/fight-details/${esc(x.u)}" target="_blank" rel="noopener">UFCStats ↗</a></p>`;
 }
 $('q').addEventListener('input',e=>{st.q=e.target.value;renderList()});
 $('div').addEventListener('change',e=>{st.div=e.target.value;save();renderList()});
@@ -205,6 +371,10 @@ $('ros').addEventListener('change',e=>{st.ros=e.target.value;renderList()});
 $('sort').addEventListener('change',e=>{st.sort=e.target.value;save();renderList()});
 $('dist').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;st.arch=st.arch===b.dataset.a?"":b.dataset.a;renderList()});
 $('rows').addEventListener('click',e=>{const r=e.target.closest('.row');if(r)select(r.dataset.id)});
+$('card').addEventListener('click',e=>{
+  const go=e.target.closest('[data-go]');if(go){e.preventDefault();select(go.dataset.go);return}
+  const tb=e.target.closest('[data-tab]');if(tb){st.tab=tb.dataset.tab;save();const y=$('card').scrollTop;renderCard();$('card').scrollTop=Math.min(y,$('card').querySelector('.tabs').offsetTop);return}
+  const rb=e.target.closest('[data-rd]');if(rb){const d=rb.closest('.fx');d.querySelector('.fb').innerHTML=fightBody(cur,cur.fi[+d.dataset.i],+rb.dataset.rd)}});
 $('rows').addEventListener('keydown',e=>{const r=e.target.closest('.row');if(!r)return;
   if(e.key==="Enter"||e.key===" "){e.preventDefault();select(r.dataset.id)}
   if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();const n=e.key==="ArrowDown"?r.nextElementSibling:r.previousElementSibling;if(n){n.focus();select(n.dataset.id,false)}}});

@@ -1,0 +1,3751 @@
+{
+ "d1941565abf50b16": {
+  "status": "ok",
+  "slug": "jim-miller",
+  "url": "https://www.ufc.com/athlete/jim-miller",
+  "name": "Jim Miller",
+  "nick": "\"A-10\"",
+  "record": "39-19-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/MILLER_JIM_L_05-09.png?itok=v9YKyo9m",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "22",
+   "First Round Finishes": "17"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Newton, United States",
+   "Trains at": "Miller Brothers MMA- Sparta, NJ",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "42",
+   "Height": "68.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Oct. 18, 2008",
+   "Reach": "71.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "84b3e7d38f2d2ec5": {
+  "status": "ok",
+  "slug": "neil-magny",
+  "url": "https://www.ufc.com/athlete/neil-magny",
+  "name": "Neil Magny",
+  "nick": "\"The Haitian Sensation\"",
+  "record": "32-15-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/MAGNY_NEIL_L_08-15.png?itok=HZBmL-4-",
+  "hero": {
+   "Wins by Knockout": "10",
+   "Wins by Submission": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Brooklyn, United States",
+   "Trains at": "Elevation Fight Team - Denver, CO",
+   "Age": "39",
+   "Height": "75.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Feb. 23, 2013",
+   "Reach": "80.00",
+   "Leg reach": "45.00"
+  }
+ },
+ "07225ba28ae309b6": {
+  "status": "ok",
+  "slug": "charles-oliveira",
+  "url": "https://www.ufc.com/athlete/charles-oliveira",
+  "name": "Charles Oliveira",
+  "nick": "\"Do Bronxs\"",
+  "record": "37-11-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/OLIVEIRA_CHARLES_L_BMFMOCK.png?itok=Up-QPLgQ",
+  "hero": {
+   "Wins by Knockout": "10",
+   "Wins by Submission": "22"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "State of São Paulo, Brazil",
+   "Trains at": "Bronx's Gold Team",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "37",
+   "Height": "70.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Aug. 1, 2010",
+   "Reach": "74.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "6a2f7c151031653d": {
+  "status": "ok",
+  "slug": "rafael-dos-anjos",
+  "url": "https://www.ufc.com/athlete/rafael-dos-anjos",
+  "name": "Rafael Dos Anjos",
+  "nick": null,
+  "record": "32-18-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/DOS_ANJOS_RAFAEL_L_10-03.png?itok=7LT0ljgc",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "11",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Brazil",
+   "Trains at": "Kings MMA - Huntington Beach, CA",
+   "Fighting style": "Grappler",
+   "Age": "41",
+   "Height": "68.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Nov. 15, 2008",
+   "Reach": "70.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "18968f97ad34f15c": {
+  "status": "ok",
+  "slug": "jeremy-stephens",
+  "url": "https://www.ufc.com/athlete/jeremy-stephens",
+  "name": "Jeremy Stephens",
+  "nick": "\"Lil' Heathen\"",
+  "record": "29-23-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/STEPHENS_JEREMY_L_05-03.png?itok=czlgIcjI",
+  "hero": {
+   "Wins by Knockout": "19",
+   "Wins by Submission": "2",
+   "Wins by Decision": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Des Moines, United States",
+   "Trains at": "Alliance MMA - Chula Vista",
+   "Fighting style": "Freestyle",
+   "Age": "40",
+   "Height": "68.50",
+   "Weight": "155.00",
+   "Octagon Debut": "May. 27, 2007",
+   "Reach": "71.00",
+   "Leg reach": "38.50"
+  }
+ },
+ "150ff4cc642270b9": {
+  "status": "ok",
+  "slug": "max-holloway",
+  "url": "https://www.ufc.com/athlete/max-holloway",
+  "name": "Max Holloway",
+  "nick": "\"Blessed\"",
+  "record": "27-9-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-04/HOLLOWAY_MAX_L_04-13.png?itok=mcRfmIq0",
+  "hero": {
+   "Wins by Knockout": "13",
+   "Wins by Submission": "2"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Waianae, United States",
+   "Trains at": "Hawaii Elite MMA - Hawaii",
+   "Fighting style": "Muay Thai",
+   "Age": "34",
+   "Height": "71.00",
+   "Weight": "155.00",
+   "Octagon Debut": "Feb. 4, 2012",
+   "Reach": "69.00",
+   "Leg reach": "42.00"
+  }
+ },
+ "d3df1add9d9a7efb": {
+  "status": "ok",
+  "slug": "derrick-lewis",
+  "url": "https://www.ufc.com/athlete/derrick-lewis",
+  "name": "Derrick Lewis",
+  "nick": "\"The Black Beast\"",
+  "record": "29-14-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-06/LEWIS_DERRICK_R_06-14.png?itok=MYYFS9tO",
+  "hero": {
+   "Wins by Knockout": "24",
+   "First Round Finishes": "10"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "New Orleans, United States",
+   "Trains at": "4oz Fight Club",
+   "Fighting style": "Brawler",
+   "Age": "41",
+   "Height": "75.00",
+   "Weight": "265.00",
+   "Octagon Debut": "Apr. 19, 2014",
+   "Reach": "79.00",
+   "Leg reach": "43.50"
+  }
+ },
+ "511e82663651438d": {
+  "status": "ok",
+  "slug": "michael-johnson",
+  "url": "https://www.ufc.com/athlete/michael-johnson",
+  "name": "Michael Johnson",
+  "nick": "\"The Menace\"",
+  "record": "25-20-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-01/JOHNSON_MICHAEL_L_01-24.png?itok=fCCyiIzI",
+  "hero": {
+   "Wins by Knockout": "10",
+   "Wins by Submission": "2",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "St. Louis, United States",
+   "Trains at": "Jaco Hybrid Training Center",
+   "Fighting style": "Boxing",
+   "Age": "40",
+   "Height": "70.00",
+   "Weight": "168.00",
+   "Octagon Debut": "Dec. 5, 2010",
+   "Reach": "73.50",
+   "Leg reach": "41.00"
+  }
+ },
+ "887961364be5ceb3": {
+  "status": "ok",
+  "slug": "king-green",
+  "url": "https://www.ufc.com/athlete/king-green",
+  "name": "King Green",
+  "nick": "\"King\"",
+  "record": "36-18-1 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/GREEN_KING_L_10-03.png?itok=Gyyev0tB",
+  "hero": {
+   "Wins by Knockout": "13",
+   "Wins by Submission": "10",
+   "First Round Finishes": "13"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "San Bernardino, United States",
+   "Trains at": "Pinnacle MMA",
+   "Fighting style": "MMA",
+   "Age": "40",
+   "Height": "70.00",
+   "Weight": "158.50",
+   "Octagon Debut": "May. 20, 2012",
+   "Reach": "71.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "92a9aa9c93192871": {
+  "status": "ok",
+  "slug": "darren-elkins",
+  "url": "https://www.ufc.com/athlete/darren-elkins",
+  "name": "Darren Elkins",
+  "nick": "\"The Damage\"",
+  "record": "29-13-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/ELKINS_DARREN_L_08-08.png?itok=4W6b5BAT",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "6",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Portage, United States",
+   "Trains at": "Team Alpha Male (Urijah Faber's Ultimate Fitness)",
+   "Fighting style": "Freestyle",
+   "Age": "42",
+   "Height": "70.00",
+   "Weight": "145.00",
+   "Octagon Debut": "Mar. 21, 2010",
+   "Reach": "71.00",
+   "Leg reach": "39.00"
+  }
+ },
+ "f0feeb2192937424": {
+  "status": "ok",
+  "slug": "angela-hill",
+  "url": "https://www.ufc.com/athlete/angela-hill",
+  "name": "Angela Hill",
+  "nick": "\"Overkill\"",
+  "record": "19-16-0 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/HILL_ANGELA_L_05-30.png?itok=CwRO3dvX",
+  "hero": {
+   "Wins by Knockout": "5",
+   "First Round Finishes": "1"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Clinton, United States",
+   "Fighting style": "Muay Thai",
+   "Age": "41",
+   "Height": "63.00",
+   "Weight": "115.60",
+   "Octagon Debut": "Dec. 12, 2014",
+   "Reach": "64.50",
+   "Leg reach": "38.50"
+  }
+ },
+ "6a1901c62ab3870f": {
+  "status": "ok",
+  "slug": "jessica-andrade",
+  "url": "https://www.ufc.com/athlete/jessica-andrade",
+  "name": "Jéssica Andrade",
+  "nick": "\"Bate Estaca\"",
+  "record": "26-15-0 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-08/ANDRADE_JESSICA_L_08-16.png?itok=EG1JyXfD",
+  "hero": {
+   "Wins by Knockout": "10",
+   "Wins by Submission": "8",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Umuarama, Brazil",
+   "Trains at": "PRVT Para Vale Tudo",
+   "Fighting style": "Muay Thai",
+   "Age": "35",
+   "Height": "61.50",
+   "Weight": "116.00",
+   "Octagon Debut": "Jul. 27, 2013",
+   "Reach": "62.00",
+   "Leg reach": "35.00"
+  }
+ },
+ "4b47e71384a9522f": {
+  "status": "ok",
+  "slug": "tim-means",
+  "url": "https://www.ufc.com/athlete/tim-means",
+  "name": "Tim Means",
+  "nick": "\"The Dirty Bird\"",
+  "record": "33-17-1 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-04/MEANS_TIM_L_04-27.png?itok=jBeiIDO3",
+  "hero": {
+   "Wins by Knockout": "20",
+   "Wins by Submission": "5",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Wilburton, United States",
+   "Trains at": "FIT NHB Albuquerque, NM",
+   "Fighting style": "Striker",
+   "Age": "41",
+   "Height": "74.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Feb. 15, 2012",
+   "Reach": "75.00",
+   "Leg reach": "43.50"
+  }
+ },
+ "3a46b268013afede": {
+  "status": "ok",
+  "slug": "kevin-holland",
+  "url": "https://www.ufc.com/athlete/kevin-holland",
+  "name": "Kevin Holland",
+  "nick": "\"Trailblazer\"",
+  "record": "29-15-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/HOLLAND_KEVIN_L_04-11.png?itok=mOqmHvqp",
+  "hero": {
+   "Wins by Knockout": "14",
+   "Wins by Submission": "9",
+   "First Round Finishes": "13"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Riverside, United States",
+   "Trains at": "Squabble MMA",
+   "Fighting style": "Kung Fu",
+   "Age": "33",
+   "Height": "75.00",
+   "Weight": "170.50",
+   "Octagon Debut": "Aug. 4, 2018",
+   "Reach": "81.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "0c6d9ea8306c029e": {
+  "status": "ok",
+  "slug": "brad-tavares",
+  "url": "https://www.ufc.com/athlete/brad-tavares",
+  "name": "Brad Tavares",
+  "nick": null,
+  "record": "21-13-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/TAVARES_BRAD_L_03-14.png?itok=b95gOYRd",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "2",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "Xtreme Couture - Las Vegas, NV",
+   "Fighting style": "MMA",
+   "Age": "38",
+   "Height": "73.00",
+   "Weight": "186.00",
+   "Octagon Debut": "Jun. 19, 2010",
+   "Reach": "74.00",
+   "Leg reach": "43.00"
+  }
+ },
+ "8fd808923cffff82": {
+  "status": "ok",
+  "slug": "andre-fili",
+  "url": "https://www.ufc.com/athlete/andre-fili",
+  "name": "Andre Fili",
+  "nick": "\"Touchy\"",
+  "record": "26-14-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/FILI_ANDRE_L_10-10.png?itok=SVcxkFIi",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "3",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Federal Way, United States",
+   "Trains at": "Team Alpha Male (Urijah Faber's Ultimate Fitness)",
+   "Fighting style": "MMA",
+   "Age": "36",
+   "Height": "71.00",
+   "Weight": "146.00",
+   "Octagon Debut": "Oct. 20, 2013",
+   "Reach": "74.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "6ac9bc2953c47345": {
+  "status": "ok",
+  "slug": "gerald-meerschaert",
+  "url": "https://www.ufc.com/athlete/gerald-meerschaert",
+  "name": "Gerald Meerschaert",
+  "nick": "\"GM3\"",
+  "record": "37-23-0 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-08/MEERSCHAERT_GERALD_L_08-16.png?itok=ZSkiqY23",
+  "hero": {
+   "Wins by Knockout": "6",
+   "Wins by Submission": "29",
+   "First Round Finishes": "15"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Racine, United States",
+   "Trains at": "Valle Flow Striking Academy",
+   "Fighting style": "Freestyle",
+   "Age": "38",
+   "Height": "73.00",
+   "Weight": "185.60",
+   "Octagon Debut": "Dec. 10, 2016",
+   "Reach": "77.50",
+   "Leg reach": "40.00"
+  }
+ },
+ "519e4fe37ce9ff75": {
+  "status": "ok",
+  "slug": "drew-dober",
+  "url": "https://www.ufc.com/athlete/drew-dober",
+  "name": "Drew Dober",
+  "nick": null,
+  "record": "29-15-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/DOBER_DREW_L_03-07.png?itok=2b9RABZl",
+  "hero": {
+   "Wins by Knockout": "17",
+   "Wins by Submission": "5",
+   "First Round Finishes": "10"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Omaha, United States",
+   "Trains at": "Elevation Fight Team - Denver, CO",
+   "Fighting style": "Freestyle",
+   "Age": "37",
+   "Height": "68.00",
+   "Weight": "155.50",
+   "Octagon Debut": "Dec. 1, 2013",
+   "Reach": "70.00",
+   "Leg reach": "35.00"
+  }
+ },
+ "7c7332319c14094c": {
+  "status": "ok",
+  "slug": "marlon-vera",
+  "url": "https://www.ufc.com/athlete/marlon-vera",
+  "name": "Marlon Vera",
+  "nick": "\"Chito\"",
+  "record": "24-12-1 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/VERA_MARLON_L_09-19.png?itok=Rvs2dM33",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "10",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Chone, Ecuador",
+   "Trains at": "Team 5050 Guayaquil Ecuador",
+   "Fighting style": "Grappler",
+   "Age": "33",
+   "Height": "68.00",
+   "Weight": "136.00",
+   "Octagon Debut": "Nov. 15, 2014",
+   "Reach": "70.50",
+   "Leg reach": "40.50"
+  }
+ },
+ "d247691a6c0e9034": {
+  "status": "ok",
+  "slug": "cub-swanson",
+  "url": "https://www.ufc.com/athlete/cub-swanson",
+  "name": "Cub Swanson",
+  "nick": null,
+  "record": "31-14-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Retired"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/SWANSON_CUB_L_04-11.png?itok=8LCtVmm8",
+  "hero": {
+   "Wins by Knockout": "15",
+   "Wins by Submission": "4"
+  },
+  "bio": {
+   "Status": "Retired",
+   "Hometown": "Palm Springs, United States",
+   "Trains at": "Joel Diaz Boxing",
+   "Fighting style": "Brazilian Jiu-Jitsu",
+   "Age": "42",
+   "Height": "68.00",
+   "Weight": "146.00",
+   "Octagon Debut": "Nov. 12, 2011",
+   "Reach": "70.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "6d4b63c767106d3a": {
+  "status": "ok",
+  "slug": "vicente-luque",
+  "url": "https://www.ufc.com/athlete/vicente-luque",
+  "name": "Vicente Luque",
+  "nick": "\"The Silent Assassin\"",
+  "record": "24-13-1 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/LUQUE_VICENTE_L_08-15.png?itok=UplLKsVD",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "10",
+   "First Round Finishes": "15"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Westwood, United States",
+   "Trains at": "Blackzilians - Boca Raton, FL",
+   "Fighting style": "Muay Thai",
+   "Age": "34",
+   "Height": "71.00",
+   "Weight": "170.00",
+   "Octagon Debut": "Jul. 12, 2015",
+   "Reach": "75.50",
+   "Leg reach": "38.00"
+  }
+ },
+ "8c0580d4fff106c1": {
+  "status": "ok",
+  "slug": "kelvin-gastelum",
+  "url": "https://www.ufc.com/athlete/kelvin-gastelum",
+  "name": "Kelvin Gastelum",
+  "nick": null,
+  "record": "21-11-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/GASTELUM_KELVIN_L_04-11.png?itok=yRQgInm7",
+  "hero": {
+   "Wins by Knockout": "6",
+   "Wins by Submission": "6",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "San Jose, United States",
+   "Trains at": "Yuma United/Kings MMA",
+   "Fighting style": "Boxing",
+   "Age": "34",
+   "Height": "69.00",
+   "Weight": "191.00",
+   "Octagon Debut": "Apr. 14, 2013",
+   "Reach": "71.50",
+   "Leg reach": "39.50"
+  }
+ },
+ "08af939f41b5a57b": {
+  "status": "ok",
+  "slug": "beneil-dariush",
+  "url": "https://www.ufc.com/athlete/beneil-dariush",
+  "name": "Beneil Dariush",
+  "nick": null,
+  "record": "23-8-1 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/DARIUSH_BENEIL_L_05-02.png?itok=EGBjHKgU",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "8",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Iran",
+   "Trains at": "Kings MMA - Huntington Beach, CA",
+   "Fighting style": "MMA",
+   "Age": "37",
+   "Height": "70.00",
+   "Weight": "157.20",
+   "Octagon Debut": "Jan. 15, 2014",
+   "Reach": "72.00",
+   "Leg reach": "40.50"
+  }
+ },
+ "523fa774700d7d3f": {
+  "status": "ok",
+  "slug": "court-mcgee",
+  "url": "https://www.ufc.com/athlete/court-mcgee",
+  "name": "Court McGee",
+  "nick": "\"The Crusher\"",
+  "record": "23-15-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/MCGEE_COURT_L_10-03.png?itok=J0eLYXrp",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "7"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Ogden, United States",
+   "Trains at": "Agema Jiu-Jitsu",
+   "Fighting style": "Freestyle",
+   "Age": "41",
+   "Height": "71.00",
+   "Weight": "170.00",
+   "Octagon Debut": "Jun. 19, 2010",
+   "Reach": "75.50",
+   "Leg reach": "41.50"
+  }
+ },
+ "193b9d1858bc4df3": {
+  "status": "ok",
+  "slug": "dan-hooker",
+  "url": "https://www.ufc.com/athlete/dan-hooker",
+  "name": "Dan Hooker",
+  "nick": "\"The Hangman\"",
+  "record": "24-15-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/HOOKER_DAN_L_09-05.png?itok=cLfQlP6e",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "7",
+   "First Round Finishes": "12"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Aukland, New Zealand",
+   "Trains at": "Saigon Sports Club- Vietnam",
+   "Fighting style": "MMA",
+   "Age": "36",
+   "Height": "72.00",
+   "Weight": "169.70",
+   "Octagon Debut": "Jun. 28, 2014",
+   "Reach": "75.00",
+   "Leg reach": "42.50"
+  }
+ },
+ "e1147d3d2dabe1ce": {
+  "status": "ok",
+  "slug": "robert-whittaker",
+  "url": "https://www.ufc.com/athlete/robert-whittaker",
+  "name": "Robert Whittaker",
+  "nick": "\"The Reaper\"",
+  "record": "28-9-0 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-07/WHITTAKER_ROBERT_L_07-26.png?itok=9PCu_K6-",
+  "hero": {
+   "Wins by Knockout": "12",
+   "Wins by Submission": "5",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Otahuhu, Australia",
+   "Trains at": "PMA, Padstow NSW, Australia",
+   "Fighting style": "Brazilian Jiu-Jitsu",
+   "Age": "35",
+   "Height": "72.00",
+   "Weight": "185.50",
+   "Octagon Debut": "Dec. 16, 2012",
+   "Reach": "73.50",
+   "Leg reach": "43.00"
+  }
+ },
+ "0d8011111be000b2": {
+  "status": "ok",
+  "slug": "sean-strickland",
+  "url": "https://www.ufc.com/athlete/sean-strickland",
+  "name": "Sean Strickland",
+  "nick": null,
+  "record": "31-7-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "#7 PFP",
+   "Active",
+   "Title Holder"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-01/STRICKLAND_SEAN_L_BELT_01-20.png?itok=4lpTjgRZ",
+  "hero": {
+   "Wins by Knockout": "12",
+   "Wins by Submission": "4",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "Millennia MMA, Rancho, CA",
+   "Fighting style": "MMA",
+   "Age": "35",
+   "Height": "73.00",
+   "Weight": "185.00",
+   "Octagon Debut": "Mar. 15, 2014",
+   "Reach": "76.00",
+   "Leg reach": "41.50"
+  }
+ },
+ "c9cf753cfdf77fc2": {
+  "status": "ok",
+  "slug": "marcin-tybura",
+  "url": "https://www.ufc.com/athlete/marcin-tybura",
+  "name": "Marcin Tybura",
+  "nick": "\"Tybur\"",
+  "record": "27-12-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/TYBURA_MARCIN_L_03-28.png?itok=TNTDlOaO",
+  "hero": {
+   "Wins by Knockout": "10",
+   "Wins by Submission": "7",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Uniejow, Poland",
+   "Trains at": "S4 Warszawa",
+   "Fighting style": "MMA",
+   "Age": "40",
+   "Height": "75.00",
+   "Weight": "256.00",
+   "Octagon Debut": "Apr. 10, 2016",
+   "Reach": "78.00",
+   "Leg reach": "46.00"
+  }
+ },
+ "a845f0735bc67405": {
+  "status": "ok",
+  "slug": "jake-matthews",
+  "url": "https://www.ufc.com/athlete/jake-matthews",
+  "name": "Jake Matthews",
+  "nick": "\"The Celtic Kid\"",
+  "record": "23-8-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/MATTHEWS_JAKE_L_05-30.png?itok=kYM4Kq87",
+  "hero": {
+   "Wins by Knockout": "6",
+   "Wins by Submission": "8",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Preston, Australia",
+   "Trains at": "XLR8 Traning Centre, Epping, Victoria, Australia",
+   "Fighting style": "Freestyle",
+   "Age": "32",
+   "Height": "71.50",
+   "Weight": "170.00",
+   "Octagon Debut": "Jun. 28, 2014",
+   "Reach": "73.00",
+   "Leg reach": "43.00"
+  }
+ },
+ "c96d9178c9ed9e62": {
+  "status": "ok",
+  "slug": "tim-elliott",
+  "url": "https://www.ufc.com/athlete/tim-elliott",
+  "name": "Tim Elliott",
+  "nick": null,
+  "record": "23-14-1 (W-L-D)",
+  "division": "Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/ELLIOTT_TIM_L_09-12.png?itok=ig5zg9at",
+  "hero": {
+   "Wins by Knockout": "3",
+   "Wins by Submission": "8",
+   "First Round Finishes": "6"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "Next Generation Gym",
+   "Fighting style": "Freestyle",
+   "Age": "39",
+   "Height": "67.00",
+   "Weight": "126.00",
+   "Octagon Debut": "May. 5, 2012",
+   "Reach": "66.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "cb696ebfb6598724": {
+  "status": "ok",
+  "slug": "aljamain-sterling",
+  "url": "https://www.ufc.com/athlete/aljamain-sterling",
+  "name": "Aljamain Sterling",
+  "nick": "\"Funk Master\"",
+  "record": "26-5-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/STERLING_ALJAMAIN_L_04-25.png?itok=lJPFybAO",
+  "hero": {
+   "Wins by Knockout": "3",
+   "Wins by Submission": "8",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "Serra-Longo - Long Island, NY",
+   "Fighting style": "Kickboxer",
+   "Age": "37",
+   "Height": "67.00",
+   "Weight": "153.00",
+   "Octagon Debut": "Feb. 22, 2014",
+   "Reach": "71.00",
+   "Leg reach": "39.00"
+  }
+ },
+ "1091d4d957141094": {
+  "status": "ok",
+  "slug": "nikita-krylov",
+  "url": "https://www.ufc.com/athlete/nikita-krylov",
+  "name": "Nikita Krylov",
+  "nick": "\"The Miner\"",
+  "record": "31-13-0 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/KRYLOV_NIKITA_L_10-24.png?itok=4UWabxWu",
+  "hero": {
+   "Wins by Knockout": "13",
+   "Wins by Submission": "16",
+   "First Round Finishes": "23"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Donetsk, Ukraine",
+   "Trains at": "Fight Club No1 - Moscow, Russia",
+   "Fighting style": "Karate",
+   "Age": "34",
+   "Height": "75.00",
+   "Weight": "205.50",
+   "Octagon Debut": "Sep. 1, 2013",
+   "Reach": "77.50",
+   "Leg reach": "44.50"
+  }
+ },
+ "99df7d0a2a08a8a8": {
+  "status": "name_mismatch",
+  "slug": "jan-blachowicz",
+  "url": "https://www.ufc.com/athlete/jan-blachowicz",
+  "name": "Jan Błachowicz",
+  "nick": null,
+  "record": "29-12-2 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/BLACHOWICZ_JAN_L_08-01.png?itok=ESS7apdi",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "9",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Cieszyn, Poland",
+   "Trains at": "Ankos MMA - Zapaśniczy 67, Warszawa",
+   "Fighting style": "MMA",
+   "Age": "43",
+   "Height": "74.00",
+   "Weight": "206.00",
+   "Octagon Debut": "Oct. 4, 2014",
+   "Reach": "78.00",
+   "Leg reach": "44.00"
+  }
+ },
+ "d0f3959b4a9747e6": {
+  "status": "ok",
+  "slug": "jose-aldo",
+  "url": "https://www.ufc.com/athlete/jose-aldo",
+  "name": "José Aldo",
+  "nick": null,
+  "record": "32-10-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Retired"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/ALDO_JOSE_L_05-10.png?itok=fpmGp-Kn",
+  "hero": {
+   "Wins by Knockout": "17",
+   "Wins by Submission": "1",
+   "First Round Finishes": "12"
+  },
+  "bio": {
+   "Status": "Retired",
+   "Hometown": "Manaus, Brazil",
+   "Trains at": "Nova União",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "38",
+   "Height": "67.00",
+   "Weight": "143.00",
+   "Octagon Debut": "Apr. 30, 2011",
+   "Reach": "70.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "aa72b0f831d0bfe5": {
+  "status": "ok",
+  "slug": "deiveson-figueiredo",
+  "url": "https://www.ufc.com/athlete/deiveson-figueiredo",
+  "name": "Deiveson Figueiredo",
+  "nick": "\"Deus da Guerra\"",
+  "record": "25-8-1 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/FIGUEIREDO_DEIVESON_L_10-03.png?itok=EGUr0olh",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "9",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Soure, Brazil",
+   "Trains at": "Team Figueiredo",
+   "Fighting style": "Boxing",
+   "Age": "38",
+   "Height": "65.00",
+   "Weight": "138.50",
+   "Octagon Debut": "Jun. 3, 2017",
+   "Reach": "68.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "4a28cb716c19157a": {
+  "status": "ok",
+  "slug": "stephen-thompson",
+  "url": "https://www.ufc.com/athlete/stephen-thompson",
+  "name": "Stephen Thompson",
+  "nick": "\"Wonderboy\"",
+  "record": "17-9-1 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-07/THOMPSON_STEPHEN_L_07-12.png?itok=T4Y2Tqct",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "1",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Greenville, United States",
+   "Trains at": "Upstate Karate Family Martial Arts Center",
+   "Fighting style": "Karate",
+   "Age": "42",
+   "Height": "72.00",
+   "Weight": "170.50",
+   "Octagon Debut": "Feb. 4, 2012",
+   "Reach": "75.00",
+   "Leg reach": "42.00"
+  }
+ },
+ "c6aee362c7a7d482": {
+  "status": "ok",
+  "slug": "randy-brown",
+  "url": "https://www.ufc.com/athlete/randy-brown",
+  "name": "Randy Brown",
+  "nick": "\"Rudeboy\"",
+  "record": "20-8-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-04/BROWN_RANDY_L_04-26.png?itok=alaUuEEQ",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "5",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Spanish Town, Jamaica",
+   "Trains at": "Budokan Martial Arts",
+   "Age": "36",
+   "Height": "75.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Jan. 31, 2016",
+   "Reach": "78.00",
+   "Leg reach": "45.50"
+  }
+ },
+ "d8da10db80131bec": {
+  "status": "ok",
+  "slug": "niko-price",
+  "url": "https://www.ufc.com/athlete/niko-price",
+  "name": "Niko Price",
+  "nick": "\"The Hybrid\"",
+  "record": "17-11-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/PRICE_NIKO_L_10-10.png?itok=0jkFyVxn",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "3",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Cape Coral, United States",
+   "Trains at": "FightMe Combat Sports",
+   "Fighting style": "Freestyle",
+   "Age": "37",
+   "Height": "72.00",
+   "Weight": "170.50",
+   "Octagon Debut": "Dec. 31, 2016",
+   "Reach": "76.00",
+   "Leg reach": "42.50"
+  }
+ },
+ "6bd02119599741a4": {
+  "status": "ok",
+  "slug": "pedro-munhoz",
+  "url": "https://www.ufc.com/athlete/pedro-munhoz",
+  "name": "Pedro Munhoz",
+  "nick": "\"The Young Punisher\"",
+  "record": "20-10-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-03/MUNHOZ_PEDRO_L_03-09.png?itok=gGqE8qHV",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "8",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Brazil",
+   "Trains at": "Black House MMA",
+   "Fighting style": "Muay Thai",
+   "Age": "39",
+   "Height": "66.00",
+   "Weight": "135.00",
+   "Octagon Debut": "Feb. 22, 2014",
+   "Reach": "64.50",
+   "Leg reach": "36.50"
+  }
+ },
+ "b1b0729d27936f2f": {
+  "status": "ok",
+  "slug": "belal-muhammad",
+  "url": "https://www.ufc.com/athlete/belal-muhammad",
+  "name": "Belal Muhammad",
+  "nick": "\"Remember The Name\"",
+  "record": "24-6-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-06/MUHAMMAD_BELAL_L_06-06.png?itok=sZ00w5IQ",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "1"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Chicago, United States",
+   "Trains at": "Roufusport, (Mikwaukee, WI) & Chicago Fight Team (Chicago, IL)",
+   "Age": "38",
+   "Height": "71.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Jul. 7, 2016",
+   "Reach": "72.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "82a5152216251682": {
+  "status": "ok",
+  "slug": "dan-ige",
+  "url": "https://www.ufc.com/athlete/dan-ige",
+  "name": "Dan Ige",
+  "nick": "\"100 Grand\"",
+  "record": "19-10-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-07/IGE_DAN_L_07-19.png?itok=eje2mypv",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "5",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "San Clemente, United States",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "35",
+   "Height": "67.00",
+   "Weight": "145.00",
+   "Octagon Debut": "Jul. 25, 2017",
+   "Reach": "71.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "fa6796c55d6c5440": {
+  "status": "ok",
+  "slug": "curtis-blaydes",
+  "url": "https://www.ufc.com/athlete/curtis-blaydes",
+  "name": "Curtis Blaydes",
+  "nick": "\"Razor\"",
+  "record": "20-6-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/BLAYDES_CURTIS_L_04-11.png?itok=Qv7hfvDn",
+  "hero": {
+   "Wins by Knockout": "13",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Naperville, United States",
+   "Trains at": "Dutch Style MMA/ UFC Gym Lombard IL",
+   "Fighting style": "MMA",
+   "Age": "35",
+   "Height": "76.00",
+   "Weight": "258.00",
+   "Octagon Debut": "Apr. 10, 2016",
+   "Reach": "80.00",
+   "Leg reach": "46.00"
+  }
+ },
+ "05339613bf8e9808": {
+  "status": "ok",
+  "slug": "rob-font",
+  "url": "https://www.ufc.com/athlete/rob-font",
+  "name": "Rob Font",
+  "nick": null,
+  "record": "22-10-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/FONT_ROB_L_03-07.png?itok=1MgNWkzy",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "4",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Leominster, United States",
+   "Trains at": "Sityodtong - Boston",
+   "Fighting style": "Striker",
+   "Age": "39",
+   "Height": "68.00",
+   "Weight": "135.00",
+   "Octagon Debut": "Jul. 5, 2014",
+   "Reach": "71.50",
+   "Leg reach": "38.50"
+  }
+ },
+ "cd13728ae1151f46": {
+  "status": "ok",
+  "slug": "ion-cutelaba",
+  "url": "https://www.ufc.com/athlete/ion-cutelaba",
+  "name": "Ion Cutelaba",
+  "nick": "\"The Hulk\"",
+  "record": "20-12-1 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-06/CUTELABA_ION_L_06-20.png?itok=UdDEIagu",
+  "hero": {
+   "Wins by Knockout": "13",
+   "Wins by Submission": "4",
+   "First Round Finishes": "16"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Moldova",
+   "Trains at": "CSA Team Moldova",
+   "Fighting style": "Sambo",
+   "Age": "32",
+   "Height": "73.00",
+   "Weight": "205.00",
+   "Octagon Debut": "Jun. 19, 2016",
+   "Reach": "75.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "13a0275fa13c4d26": {
+  "status": "ok",
+  "slug": "jared-cannonier",
+  "url": "https://www.ufc.com/athlete/jared-cannonier",
+  "name": "Jared Cannonier",
+  "nick": "\"Tha Killa Gorilla\"",
+  "record": "18-10-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/CANNONIER_JARED_L_07-18.png?itok=_lep6e-l",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "2",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Dallas, United States",
+   "Trains at": "ABJJ + Gracie Barra Alaska",
+   "Fighting style": "Striker",
+   "Age": "42",
+   "Height": "71.00",
+   "Weight": "186.00",
+   "Octagon Debut": "Jan. 3, 2015",
+   "Reach": "77.50",
+   "Leg reach": "41.50"
+  }
+ },
+ "38c7f72747f4f712": {
+  "status": "ok",
+  "slug": "gillian-robertson",
+  "url": "https://www.ufc.com/athlete/gillian-robertson",
+  "name": "Gillian Robertson",
+  "nick": "\"The Savage\"",
+  "record": "17-9-0 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/ROBERTSON_GILLIAN_L_01-20.png?itok=yw3RX2mI",
+  "hero": {
+   "Wins by Knockout": "3",
+   "Wins by Submission": "9",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Niagara Falls, Canada",
+   "Trains at": "The Goat Shed",
+   "Fighting style": "MMA",
+   "Age": "31",
+   "Height": "65.00",
+   "Weight": "116.00",
+   "Octagon Debut": "Dec. 1, 2017",
+   "Reach": "63.00",
+   "Leg reach": "35.50"
+  }
+ },
+ "6d1bffff14897645": {
+  "status": "ok",
+  "slug": "santiago-ponzinibbio",
+  "url": "https://www.ufc.com/athlete/santiago-ponzinibbio",
+  "name": "Santiago Ponzinibbio",
+  "nick": "\"Argentine Dagger\"",
+  "record": "31-10-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/PONZINIBBIO_SANTIAGO_L_07-25.png?itok=qqXgQOmg",
+  "hero": {
+   "Wins by Knockout": "17",
+   "Wins by Submission": "6",
+   "First Round Finishes": "14"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Argentina",
+   "Trains at": "American Top Team ATT Coconut Creek, FL",
+   "Fighting style": "Striker",
+   "Age": "39",
+   "Height": "72.00",
+   "Weight": "170.00",
+   "Octagon Debut": "Nov. 9, 2013",
+   "Reach": "73.00",
+   "Leg reach": "40.50"
+  }
+ },
+ "792be9a24df82ed6": {
+  "status": "ok",
+  "slug": "brandon-moreno",
+  "url": "https://www.ufc.com/athlete/brandon-moreno",
+  "name": "Brandon Moreno",
+  "nick": "\"The Assassin Baby\"",
+  "record": "24-10-2 (W-L-D)",
+  "division": "Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/MORENO_BRANDON_L_09-12.png?itok=tIqGDEZU",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "11",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Tijuana, Mexico",
+   "Trains at": "Team Moreno",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "32",
+   "Height": "67.00",
+   "Weight": "125.00",
+   "Octagon Debut": "Oct. 2, 2016",
+   "Reach": "70.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "279566840aa55bf2": {
+  "status": "ok",
+  "slug": "alexander-volkov",
+  "url": "https://www.ufc.com/athlete/alexander-volkov",
+  "name": "Alexander Volkov",
+  "nick": "\"Drago\"",
+  "record": "41-11-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/VOLKOV_ALEXANDER_L_10-24.png?itok=MmnUuVTF",
+  "hero": {
+   "Wins by Knockout": "24",
+   "Wins by Submission": "4",
+   "First Round Finishes": "17"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Moscow, Russia",
+   "Trains at": "Global Fight Gym",
+   "Fighting style": "Brazilian Jiu-Jitsu",
+   "Age": "38",
+   "Height": "79.00",
+   "Weight": "261.50",
+   "Octagon Debut": "Nov. 19, 2016",
+   "Reach": "80.00",
+   "Leg reach": "47.50"
+  }
+ },
+ "2f181c0467965b98": {
+  "status": "ok",
+  "slug": "brendan-allen",
+  "url": "https://www.ufc.com/athlete/brendan-allen",
+  "name": "Brendan Allen",
+  "nick": "\"All In\"",
+  "record": "28-7-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/ALLEN_BRENDAN_L_10-10.png?itok=NcJZsiBb",
+  "hero": {
+   "Wins by Knockout": "6",
+   "Wins by Submission": "15",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Beaufort, United States",
+   "Trains at": "Kill Cliff FC",
+   "Fighting style": "MMA",
+   "Age": "30",
+   "Height": "74.00",
+   "Weight": "186.00",
+   "Octagon Debut": "Oct. 18, 2019",
+   "Reach": "75.00",
+   "Leg reach": "42.00"
+  }
+ },
+ "b6452706b373eea1": {
+  "status": "ok",
+  "slug": "renato-moicano",
+  "url": "https://www.ufc.com/athlete/renato-moicano",
+  "name": "Renato Moicano",
+  "nick": null,
+  "record": "21-7-1 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/MOICANO_RENATO_L_04-04.png?itok=2zj_9GSb",
+  "hero": {
+   "Wins by Knockout": "2",
+   "Wins by Submission": "11",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Brasilia, Brazil",
+   "Trains at": "American Top Team",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "37",
+   "Height": "71.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Dec. 20, 2014",
+   "Reach": "72.00",
+   "Leg reach": "42.50"
+  }
+ },
+ "f1fac969a1d70b08": {
+  "status": "ok",
+  "slug": "leon-edwards",
+  "url": "https://www.ufc.com/athlete/leon-edwards",
+  "name": "Leon Edwards",
+  "nick": "\"Rocky\"",
+  "record": "22-6-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-11/EDWARDS_LEON_L_11-15.png?itok=sqp_GH1G",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "3",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Kingston, Jamaica",
+   "Trains at": "UTC Ultimate Training Centre Birmingham",
+   "Fighting style": "MMA",
+   "Age": "35",
+   "Height": "72.00",
+   "Weight": "170.00",
+   "Octagon Debut": "Nov. 9, 2014",
+   "Reach": "74.00",
+   "Leg reach": "43.00"
+  }
+ },
+ "f1b2aa7853d1ed6e": {
+  "status": "ok",
+  "slug": "kamaru-usman",
+  "url": "https://www.ufc.com/athlete/kamaru-usman",
+  "name": "Kamaru Usman",
+  "nick": "\"Nigerian Nightmare\"",
+  "record": "21-5-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-06/USMAN_KAMARU_L_06-14.png?itok=_E2PDHo4",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "1",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Auchi, Nigeria",
+   "Trains at": "Blackzilians - Boca Raton, FL",
+   "Fighting style": "Freestyle",
+   "Age": "39",
+   "Height": "72.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Jul. 12, 2015",
+   "Reach": "76.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "e1248941344b3288": {
+  "status": "ok",
+  "slug": "alexander-volkanovski",
+  "url": "https://www.ufc.com/athlete/alexander-volkanovski",
+  "name": "Alexander Volkanovski",
+  "nick": "\"The Great\"",
+  "record": "29-4-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "#2 PFP",
+   "Active",
+   "Title Holder"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/VOLKANOVSKI_ALEXANDER_L_BELT_10-24.png?itok=voGYsH6L",
+  "hero": {
+   "Wins by Knockout": "14",
+   "Wins by Submission": "3",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Wollongong, Australia",
+   "Trains at": "Freestyle Fighting Gym",
+   "Age": "38",
+   "Height": "66.00",
+   "Weight": "158.30",
+   "Octagon Debut": "Oct. 15, 2016",
+   "Reach": "71.50",
+   "Leg reach": "36.00"
+  }
+ },
+ "1338e2c7480bdf9e": {
+  "status": "ok",
+  "slug": "israel-adesanya",
+  "url": "https://www.ufc.com/athlete/israel-adesanya",
+  "name": "Israel Adesanya",
+  "nick": "\"The Last Stylebender\"",
+  "record": "24-6-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/ADESANYA_ISRAEL_L_03-28.png?itok=RopFx9gx",
+  "hero": {
+   "Wins by Knockout": "16",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Lagos, Nigeria",
+   "Trains at": "City Kickboxing",
+   "Fighting style": "Freestyle",
+   "Age": "37",
+   "Height": "76.00",
+   "Weight": "185.00",
+   "Octagon Debut": "Feb. 11, 2018",
+   "Reach": "80.00",
+   "Leg reach": "44.50"
+  }
+ },
+ "a0f0004aadf10b71": {
+  "status": "ok",
+  "slug": "alexandre-pantoja",
+  "url": "https://www.ufc.com/athlete/alexandre-pantoja",
+  "name": "Alexandre Pantoja",
+  "nick": "\"The Cannibal\"",
+  "record": "30-7-0 (W-L-D)",
+  "division": "Flyweight Division",
+  "tags": [
+   "#14 PFP",
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/PANTOJA_ALEXANDRE_L_09-19.png?itok=-DU8CxfT",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "12",
+   "First Round Finishes": "10"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Brazil",
+   "Trains at": "American Top Team",
+   "Fighting style": "MMA",
+   "Age": "36",
+   "Height": "65.00",
+   "Weight": "125.00",
+   "Octagon Debut": "Jan. 29, 2017",
+   "Reach": "67.00",
+   "Leg reach": "36.50"
+  }
+ },
+ "7acbb0972e75281a": {
+  "status": "ok",
+  "slug": "marvin-vettori",
+  "url": "https://www.ufc.com/athlete/marvin-vettori",
+  "name": "Marvin Vettori",
+  "nick": "\"The Italian Dream\"",
+  "record": "19-11-1 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/VETTORI_MARVIN_L_10-03.png?itok=xBi6Ehwu",
+  "hero": {
+   "Wins by Knockout": "2",
+   "Wins by Submission": "9",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Trento, Italy",
+   "Trains at": "Kings MMA - Huntington Beach, CA",
+   "Fighting style": "MMA",
+   "Age": "33",
+   "Height": "72.00",
+   "Weight": "186.00",
+   "Octagon Debut": "Aug. 21, 2016",
+   "Reach": "74.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "0d65c432720accb9": {
+  "status": "ok",
+  "slug": "michal-oleksiejczuk",
+  "url": "https://www.ufc.com/athlete/michal-oleksiejczuk",
+  "name": "Michal Oleksiejczuk",
+  "nick": "\"Hussar\"",
+  "record": "22-10-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-02/OLEKSIEJCZUK_MICHAL_L_02-07.png?itok=hDOVJtgb",
+  "hero": {
+   "Wins by Knockout": "16",
+   "Wins by Submission": "1",
+   "First Round Finishes": "13"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Wlodawa, Poland",
+   "Trains at": "The Fighting Nerds",
+   "Fighting style": "MMA",
+   "Age": "31",
+   "Height": "72.00",
+   "Weight": "186.00",
+   "Octagon Debut": "Dec. 30, 2017",
+   "Reach": "74.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "a495f599e787614f": {
+  "status": "ok",
+  "slug": "alonzo-menifield",
+  "url": "https://www.ufc.com/athlete/alonzo-menifield",
+  "name": "Alonzo Menifield",
+  "nick": "\"Atomic\"",
+  "record": "19-6-1 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/MENIFIELD_ALONZO_L_09-19.png?itok=YNK1f7Ue",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "3",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Los Angeles, United States",
+   "Fighting style": "Freestyle",
+   "Age": "39",
+   "Height": "72.00",
+   "Weight": "206.00",
+   "Octagon Debut": "Jan. 19, 2019",
+   "Reach": "76.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "c62fbc117d57b943": {
+  "status": "ok",
+  "slug": "tai-tuivasa",
+  "url": "https://www.ufc.com/athlete/tai-tuivasa",
+  "name": "Tai Tuivasa",
+  "nick": "\"Bam Bam\"",
+  "record": "15-11-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/TUIVASA_TAI_L_09-19.png?itok=P6tcAa_A",
+  "hero": {
+   "Wins by Knockout": "14",
+   "First Round Finishes": "12"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Kingswood, Australia",
+   "Trains at": "American Top Team",
+   "Age": "33",
+   "Height": "74.00",
+   "Weight": "282.00",
+   "Octagon Debut": "Nov. 18, 2017",
+   "Reach": "75.00",
+   "Leg reach": "39.50"
+  }
+ },
+ "275aca31f61ba28c": {
+  "status": "ok",
+  "slug": "islam-makhachev",
+  "url": "https://www.ufc.com/athlete/islam-makhachev",
+  "name": "Islam Makhachev",
+  "nick": null,
+  "record": "29-1-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "#1 PFP",
+   "Active",
+   "Title Holder"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/7/MAKHACHEV_ISLAM_L_BELT_01-18.png?itok=crqbSRmt",
+  "hero": {
+   "Fight Win Streak": "17",
+   "Wins by Knockout": "5",
+   "Wins by Submission": "13"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Dagestan, Russia",
+   "Trains at": "AKA (American Kickboxing Academy) San Jose",
+   "Fighting style": "Sambo",
+   "Age": "34",
+   "Height": "70.00",
+   "Weight": "170.00",
+   "Octagon Debut": "May. 23, 2015",
+   "Reach": "70.50",
+   "Leg reach": "40.50"
+  }
+ },
+ "0a1942069c9ad6b6": {
+  "status": "ok",
+  "slug": "jack-hermansson",
+  "url": "https://www.ufc.com/athlete/jack-hermansson",
+  "name": "Jack Hermansson",
+  "nick": "\"The Joker\"",
+  "record": "24-10-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-11/HERMANSSON_JACK_L_11-22.png?itok=wMzrEHaB",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "6",
+   "First Round Finishes": "10"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Uddevalla, Sweden",
+   "Trains at": "Frontline Academy - Oslo",
+   "Fighting style": "MMA",
+   "Age": "37",
+   "Height": "73.00",
+   "Weight": "170.50",
+   "Octagon Debut": "Sep. 3, 2016",
+   "Reach": "77.50",
+   "Leg reach": "46.50"
+  }
+ },
+ "262a7d06203657e6": {
+  "status": "ok",
+  "slug": "alexander-hernandez",
+  "url": "https://www.ufc.com/athlete/alexander-hernandez",
+  "name": "Alexander Hernandez",
+  "nick": "\"El Gran Chango\"",
+  "record": "19-9-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-09/HERNANDEZ_ALEXANDER_L_09-13.png?itok=B5l45CwH",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "2",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "St. Louis, United States",
+   "Fighting style": "MMA",
+   "Age": "34",
+   "Height": "69.00",
+   "Weight": "170.50",
+   "Octagon Debut": "Mar. 3, 2018",
+   "Reach": "72.00",
+   "Leg reach": "39.50"
+  }
+ },
+ "47b63240018d5d86": {
+  "status": "ok",
+  "slug": "rose-namajunas",
+  "url": "https://www.ufc.com/athlete/rose-namajunas",
+  "name": "Rose Namajunas",
+  "nick": "\"Thug\"",
+  "record": "15-8-0 (W-L-D)",
+  "division": "Women's Flyweight Division",
+  "tags": [
+   "#13 PFP",
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-06/NAMAJUNAS_ROSE_L_06-14.png?itok=SA42vJhp",
+  "hero": {
+   "Wins by Knockout": "2",
+   "Wins by Submission": "6",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Milwaukee, United States",
+   "Trains at": "Grudge Training Center",
+   "Fighting style": "MMA",
+   "Age": "34",
+   "Height": "65.00",
+   "Weight": "125.50",
+   "Octagon Debut": "Dec. 12, 2014",
+   "Reach": "65.00",
+   "Leg reach": "39.50"
+  }
+ },
+ "d7c3816669784109": {
+  "status": "ok",
+  "slug": "karolina-kowalkiewicz",
+  "url": "https://www.ufc.com/athlete/karolina-kowalkiewicz",
+  "name": "Karolina Kowalkiewicz",
+  "nick": null,
+  "record": "16-10-0 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/KOWALKIEWICZ_KAROLINA_L_11-09.png?itok=JK5FHctD",
+  "hero": {
+   "Wins by Knockout": "1",
+   "Wins by Submission": "3",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Lodz, Poland",
+   "Trains at": "Gracie Barra Lodz",
+   "Fighting style": "MMA",
+   "Age": "39",
+   "Height": "63.00",
+   "Weight": "116.00",
+   "Octagon Debut": "Dec. 19, 2015",
+   "Reach": "64.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "132deb59abae64b1": {
+  "status": "ok",
+  "slug": "valentina-shevchenko",
+  "url": "https://www.ufc.com/athlete/valentina-shevchenko",
+  "name": "Valentina Shevchenko",
+  "nick": "\"Bullet\"",
+  "record": "26-4-1 (W-L-D)",
+  "division": "Women's Flyweight Division",
+  "tags": [
+   "#1 PFP",
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-11/SHEVCHENKO_VALENTINA_L_BELT_11-15.png?itok=4KuKr99O",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "7",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Bishkek, Kyrgyzstan",
+   "Trains at": "Tiger Muay Thai - Phuket, Thailand",
+   "Fighting style": "Muay Thai",
+   "Age": "38",
+   "Height": "65.00",
+   "Weight": "124.60",
+   "Octagon Debut": "Dec. 19, 2015",
+   "Reach": "67.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "31ef8b67e13495b3": {
+  "status": "ok",
+  "slug": "tecia-pennington",
+  "url": "https://www.ufc.com/athlete/tecia-pennington",
+  "name": "Tecia Pennington",
+  "nick": "\"Tiny Tornado\"",
+  "record": "15-8-0 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/PENNINGTON_TECIA_L_05-17.png?itok=H-VsbzEz",
+  "hero": {
+   "Wins by Knockout": "1",
+   "Wins by Submission": "1"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Fall River, United States",
+   "Trains at": "American Top Team ATT Coconut Creek, FL",
+   "Fighting style": "Kickboxer",
+   "Age": "37",
+   "Height": "61.00",
+   "Weight": "114.50",
+   "Octagon Debut": "Dec. 12, 2014",
+   "Reach": "60.50",
+   "Leg reach": "35.00"
+  }
+ },
+ "f1d64ae34e088832": {
+  "status": "ok",
+  "slug": "charles-jourdain",
+  "url": "https://www.ufc.com/athlete/charles-jourdain",
+  "name": "Charles Jourdain",
+  "nick": "\"Air\"",
+  "record": "18-9-1 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-10/JOURDAIN_CHARLES_L_10-18.png?itok=lbnIm7ba",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "7",
+   "First Round Finishes": "6"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Longueuil, Canada",
+   "Trains at": "Brazilian Top Team",
+   "Fighting style": "Striker",
+   "Age": "30",
+   "Height": "69.00",
+   "Weight": "135.50",
+   "Octagon Debut": "May. 18, 2019",
+   "Reach": "69.00",
+   "Leg reach": "39.00"
+  }
+ },
+ "efb96bf3e9ada36f": {
+  "status": "ok",
+  "slug": "song-yadong",
+  "url": "https://www.ufc.com/athlete/song-yadong",
+  "name": "Song Yadong",
+  "nick": "\"Kung Fu Kid\"",
+  "record": "24-9-1 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/YADONG_SONG_L_05-30.png?itok=yMtLdKZS",
+  "hero": {
+   "Wins by Knockout": "10",
+   "Wins by Submission": "4",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Heilongjiang, China",
+   "Trains at": "Team Alpha Male",
+   "Fighting style": "Boxer",
+   "Age": "28",
+   "Height": "68.00",
+   "Weight": "136.00",
+   "Octagon Debut": "Nov. 25, 2017",
+   "Reach": "67.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "5987b2458f4b5290": {
+  "status": "ok",
+  "slug": "ricky-simon",
+  "url": "https://www.ufc.com/athlete/ricky-simon",
+  "name": "Ricky Simon",
+  "nick": null,
+  "record": "22-8-1 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/SIMON_RICKY_L_03-28.png?itok=sJteSJT_",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "4",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Pendleton, United States",
+   "Trains at": "Syndicate MMA",
+   "Fighting style": "Wrestling",
+   "Age": "34",
+   "Height": "66.00",
+   "Weight": "135.50",
+   "Octagon Debut": "Aug. 8, 2017",
+   "Reach": "69.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "e4277e87a789d687": {
+  "status": "ok",
+  "slug": "dustin-jacoby",
+  "url": "https://www.ufc.com/athlete/dustin-jacoby",
+  "name": "Dustin Jacoby",
+  "nick": "\"The Hanyak\"",
+  "record": "22-10-1 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/JACOBY_DUSTIN_L_07-25.png?itok=Cqjm5n4D",
+  "hero": {
+   "Wins by Knockout": "15",
+   "First Round Finishes": "13"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Fort Morgan, United States",
+   "Fighting style": "Freestyle",
+   "Age": "38",
+   "Height": "75.00",
+   "Weight": "205.00",
+   "Octagon Debut": "Oct. 29, 2011",
+   "Reach": "76.00",
+   "Leg reach": "45.00"
+  }
+ },
+ "f53d4f21d1b5f2dc": {
+  "status": "ok",
+  "slug": "diego-ferreira",
+  "url": "https://www.ufc.com/athlete/diego-ferreira",
+  "name": "Diego Ferreira",
+  "nick": null,
+  "record": "20-7-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/FERREIRA_DIEGO_L_08-08.png?itok=SfdTY6nN",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "7",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Terra Nova, Brazil",
+   "Trains at": "Team Ferreira BJJ- Pharr, TX",
+   "Fighting style": "MMA",
+   "Age": "41",
+   "Height": "69.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Jun. 28, 2014",
+   "Reach": "74.00",
+   "Leg reach": "40.50"
+  }
+ },
+ "6fd953151d981979": {
+  "status": "ok",
+  "slug": "jj-aldrich",
+  "url": "https://www.ufc.com/athlete/jj-aldrich",
+  "name": "JJ Aldrich",
+  "nick": null,
+  "record": "15-8-0 (W-L-D)",
+  "division": "Women's Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/ALDRICH_JJ_L_09-12.png?itok=zI3oNEu9",
+  "hero": {
+   "Wins by Knockout": "3",
+   "First Round Finishes": "2"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Denver, United States",
+   "Trains at": "Tiger Beetle Martial Arts",
+   "Fighting style": "Striker",
+   "Age": "33",
+   "Height": "65.00",
+   "Weight": "126.00",
+   "Octagon Debut": "Dec. 10, 2016",
+   "Reach": "67.50",
+   "Leg reach": "37.00"
+  }
+ },
+ "d8c7c61b176e3994": {
+  "status": "ok",
+  "slug": "cody-garbrandt",
+  "url": "https://www.ufc.com/athlete/cody-garbrandt",
+  "name": "Cody Garbrandt",
+  "nick": "\"No Love\"",
+  "record": "15-8-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/GARBRANDT_CODY_L_07-11.png?itok=vNyLFAQe",
+  "hero": {
+   "Wins by Knockout": "11",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Uhrichsville, United States",
+   "Trains at": "Team Alpha Male (Urijah Faber's Ultimate Fitness)",
+   "Fighting style": "Freestyle",
+   "Age": "35",
+   "Height": "68.00",
+   "Weight": "136.00",
+   "Octagon Debut": "Jan. 3, 2015",
+   "Reach": "65.50",
+   "Leg reach": "38.00"
+  }
+ },
+ "7026eca45f65377b": {
+  "status": "ok",
+  "slug": "jared-gordon",
+  "url": "https://www.ufc.com/athlete/jared-gordon",
+  "name": "Jared Gordon",
+  "nick": "\"Flash\"",
+  "record": "21-9-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/GORDON_JARED_L_05-17.png?itok=JksSLA9u",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "2",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "New York, United States",
+   "Trains at": "Kill Cliff FC",
+   "Fighting style": "Freestyle",
+   "Age": "37",
+   "Height": "69.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Jun. 26, 2017",
+   "Reach": "68.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "c03520b5c88ed6b4": {
+  "status": "ok",
+  "slug": "merab-dvalishvili",
+  "url": "https://www.ufc.com/athlete/merab-dvalishvili",
+  "name": "Merab Dvalishvili",
+  "nick": "\"The Machine\"",
+  "record": "21-6-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "#9 PFP",
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2022-08/DVALISHVILI_MERAB_L_08-20.png?itok=UNfxCucB",
+  "hero": {
+   "Wins by Knockout": "3",
+   "Wins by Submission": "2"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Tbilisi, Georgia",
+   "Trains at": "Team Serra/Longo",
+   "Fighting style": "Freestyle",
+   "Age": "35",
+   "Height": "66.00",
+   "Weight": "135.00",
+   "Octagon Debut": "Dec. 9, 2017",
+   "Reach": "68.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "902ec2cc48c8ae8a": {
+  "status": "ok",
+  "slug": "julian-erosa",
+  "url": "https://www.ufc.com/athlete/julian-erosa",
+  "name": "Julian Erosa",
+  "nick": "\"Juicy J\"",
+  "record": "31-14-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/EROSA_JULIAN_L_03-28.png?itok=QBTJINN6",
+  "hero": {
+   "Wins by Knockout": "12",
+   "Wins by Submission": "14",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Yakima, United States",
+   "Trains at": "Xtreme Couture - Las Vegas, NV",
+   "Fighting style": "Striker",
+   "Age": "37",
+   "Height": "73.00",
+   "Weight": "145.00",
+   "Octagon Debut": "Dec. 11, 2015",
+   "Reach": "74.50",
+   "Leg reach": "41.00"
+  }
+ },
+ "b9437600497350f3": {
+  "status": "ok",
+  "slug": "joaquin-buckley",
+  "url": "https://www.ufc.com/athlete/joaquin-buckley",
+  "name": "Joaquin Buckley",
+  "nick": "\"New Mansa\"",
+  "record": "21-9-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/BUCKLEY_JOAQUIN_L_10-17.png?itok=KSnbB441",
+  "hero": {
+   "Wins by Knockout": "15",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "STL Boxing",
+   "Fighting style": "Freestyle",
+   "Age": "32",
+   "Height": "70.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Aug. 8, 2020",
+   "Reach": "76.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "e872e9a9a902c045": {
+  "status": "ok",
+  "slug": "katlyn-cerminara",
+  "url": "https://www.ufc.com/athlete/katlyn-cerminara",
+  "name": "Katlyn Cerminara",
+  "nick": "\"Blonde Fighter\"",
+  "record": "19-6-0 (W-L-D)",
+  "division": "Women's Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/CERMINARA_KATLYN_L_10-17.png?itok=QSt1A12H",
+  "hero": {
+   "Wins by Knockout": "2",
+   "Wins by Submission": "1",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Quakertown, United States",
+   "Trains at": "Marquez MMA",
+   "Fighting style": "MMA",
+   "Age": "37",
+   "Height": "69.00",
+   "Weight": "125.00",
+   "Octagon Debut": "Jul. 14, 2016",
+   "Reach": "68.00",
+   "Leg reach": "42.00"
+  }
+ },
+ "749f572d1d3161fb": {
+  "status": "ok",
+  "slug": "khalil-rountree-jr",
+  "url": "https://www.ufc.com/athlete/khalil-rountree-jr",
+  "name": "Khalil Rountree Jr.",
+  "nick": null,
+  "record": "15-7-0 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/ROUNTREE_KHALIL_L_12-09.png?itok=jdBjK2dO",
+  "hero": {
+   "Wins by Knockout": "9",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Los Angeles, United States",
+   "Trains at": "Syndicate MMA - Las Vegas, NV",
+   "Fighting style": "MMA",
+   "Age": "36",
+   "Height": "73.00",
+   "Weight": "205.00",
+   "Octagon Debut": "Jul. 9, 2016",
+   "Reach": "76.50",
+   "Leg reach": "44.00"
+  }
+ },
+ "8e9eb3fc86db0f7d": {
+  "status": "ok",
+  "slug": "marc-andre-barriault",
+  "url": "https://www.ufc.com/athlete/marc-andre-barriault",
+  "name": "Marc-Andre Barriault",
+  "nick": "\"Powerbar\"",
+  "record": "18-11-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/BARRIAULT_MARC-ANDRE_L_10-17.png?itok=7UW0I29y",
+  "hero": {
+   "Wins by Knockout": "12",
+   "Wins by Submission": "1",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Gatineau, Canada",
+   "Trains at": "Kill Cliff FC",
+   "Fighting style": "Striker",
+   "Age": "36",
+   "Height": "73.00",
+   "Weight": "185.00",
+   "Octagon Debut": "Oct. 26, 2026",
+   "Reach": "74.00",
+   "Leg reach": "42.50"
+  }
+ },
+ "7f6ed67d3ed3c036": {
+  "status": "ok",
+  "slug": "cody-durden",
+  "url": "https://www.ufc.com/athlete/cody-durden",
+  "name": "Cody Durden",
+  "nick": "\"Custom Made\"",
+  "record": "18-11-1 (W-L-D)",
+  "division": "Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/DURDEN_CODY_L_03-07.png?itok=vvCN2I2y",
+  "hero": {
+   "Wins by Knockout": "6",
+   "Wins by Submission": "6",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "American Top Team",
+   "Fighting style": "Striker",
+   "Age": "35",
+   "Height": "67.00",
+   "Weight": "130.00",
+   "Octagon Debut": "Aug. 1, 2020",
+   "Reach": "67.00",
+   "Leg reach": "37.50"
+  }
+ },
+ "67c1d46f4ed16f9e": {
+  "status": "ok",
+  "slug": "matt-schnell",
+  "url": "https://www.ufc.com/athlete/matt-schnell",
+  "name": "Matt Schnell",
+  "nick": "\"Danger\"",
+  "record": "17-11-0 (W-L-D)",
+  "division": "Flyweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-06/SCHNELL_MATT_L_06-06.png?itok=yKzRTgaC",
+  "hero": {
+   "Wins by Knockout": "2",
+   "Wins by Submission": "9",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "United States",
+   "Fighting style": "Brazilian Jiu-Jitsu",
+   "Age": "36",
+   "Height": "68.00",
+   "Weight": "126.00",
+   "Octagon Debut": "Dec. 4, 2016",
+   "Reach": "70.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "7447e9f28508106a": {
+  "status": "ok",
+  "slug": "mackenzie-dern",
+  "url": "https://www.ufc.com/athlete/mackenzie-dern",
+  "name": "Mackenzie Dern",
+  "nick": null,
+  "record": "17-5-0 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "#5 PFP",
+   "Active",
+   "Title Holder"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/DERN_MACKENZIE_L_BELT_08-15.png?itok=F25i7KdB",
+  "hero": {
+   "Wins by Submission": "8",
+   "First Round Finishes": "6"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "Megaton Dias BJJ",
+   "Fighting style": "Brazilian Jiu-Jitsu",
+   "Age": "33",
+   "Height": "64.00",
+   "Weight": "115.00",
+   "Octagon Debut": "Mar. 3, 2018",
+   "Reach": "63.00",
+   "Leg reach": "37.50"
+  }
+ },
+ "c21f26bbde777573": {
+  "status": "ok",
+  "slug": "johnny-walker",
+  "url": "https://www.ufc.com/athlete/johnny-walker",
+  "name": "Johnny Walker",
+  "nick": null,
+  "record": "23-10-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/WALKER_JOHNNY_L_10-03.png?itok=h_k0j7f0",
+  "hero": {
+   "Wins by Knockout": "18",
+   "Wins by Submission": "3",
+   "First Round Finishes": "18"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Belford Roxo, Brazil",
+   "Trains at": "SBG Ireland",
+   "Fighting style": "MMA",
+   "Age": "34",
+   "Height": "78.00",
+   "Weight": "206.00",
+   "Octagon Debut": "Nov. 17, 2018",
+   "Reach": "82.00",
+   "Leg reach": "44.50"
+  }
+ },
+ "65f09bacd3957381": {
+  "status": "ok",
+  "slug": "cory-sandhagen",
+  "url": "https://www.ufc.com/athlete/cory-sandhagen",
+  "name": "Cory Sandhagen",
+  "nick": null,
+  "record": "18-7-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/SANDHAGEN_CORY_L_07-11.png?itok=js9SxyWU",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "3",
+   "First Round Finishes": "6"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Aurora, United States",
+   "Fighting style": "MMA",
+   "Age": "34",
+   "Height": "71.00",
+   "Weight": "134.50",
+   "Octagon Debut": "Jan. 28, 2018",
+   "Reach": "70.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "d661ce4da776fc20": {
+  "status": "ok",
+  "slug": "petr-yan",
+  "url": "https://www.ufc.com/athlete/petr-yan",
+  "name": "Petr Yan",
+  "nick": "\"No Mercy\"",
+  "record": "21-5-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "#4 PFP",
+   "Active",
+   "Title Holder"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/YAN_PETR_L_BELT_10-24.png?itok=emxapDGh",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "1",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Krasnoyarsk Krai, Russia",
+   "Fighting style": "Boxer",
+   "Age": "33",
+   "Height": "67.50",
+   "Weight": "135.00",
+   "Octagon Debut": "Jun. 23, 2018",
+   "Reach": "67.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "d802174b0c0c1f4e": {
+  "status": "ok",
+  "slug": "magomed-ankalaev",
+  "url": "https://www.ufc.com/athlete/magomed-ankalaev",
+  "name": "Magomed Ankalaev",
+  "nick": null,
+  "record": "22-2-1 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/ANKALAEV_MAGOMED_L_07-25.png?itok=LWk-G7kA",
+  "hero": {
+   "Wins by Knockout": "12",
+   "First Round Finishes": "6"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Russia",
+   "Fighting style": "MMA",
+   "Age": "34",
+   "Height": "75.00",
+   "Weight": "204.50",
+   "Octagon Debut": "Mar. 17, 2018",
+   "Reach": "75.00",
+   "Leg reach": "46.00"
+  }
+ },
+ "fba03cd6cc28dc41": {
+  "status": "ok",
+  "slug": "josh-emmett",
+  "url": "https://www.ufc.com/athlete/josh-emmett",
+  "name": "Josh Emmett",
+  "nick": "\"CC0 (C-C-OH)\"",
+  "record": "19-7-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/EMMETT_JOSH_L_03-14.png?itok=CmMjCtXR",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "2",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Phoenix, United States",
+   "Trains at": "Team Alpha Male (Urijah Faber's Ultimate Fitness)",
+   "Fighting style": "Freestyle",
+   "Age": "41",
+   "Height": "66.50",
+   "Weight": "146.00",
+   "Octagon Debut": "May. 8, 2016",
+   "Reach": "70.00",
+   "Leg reach": "39.50"
+  }
+ },
+ "a67f5afa8d6a1b80": {
+  "status": "ok",
+  "slug": "ryan-spann",
+  "url": "https://www.ufc.com/athlete/ryan-spann",
+  "name": "Ryan Spann",
+  "nick": "\"Superman\"",
+  "record": "24-12-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-07/SPANN_RYAN_L_07-19.png?itok=uktQXcGD",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "14",
+   "First Round Finishes": "18"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Memphis, United States",
+   "Trains at": "Fortis MMA",
+   "Fighting style": "MMA",
+   "Age": "35",
+   "Height": "77.00",
+   "Weight": "252.00",
+   "Octagon Debut": "Jul. 25, 2017",
+   "Reach": "79.00",
+   "Leg reach": "45.50"
+  }
+ },
+ "0845c81e37d3bcb3": {
+  "status": "ok",
+  "slug": "volkan-oezdemir",
+  "url": "https://www.ufc.com/athlete/volkan-oezdemir",
+  "name": "Volkan Oezdemir",
+  "nick": "\"No Time\"",
+  "record": "21-8-0 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-11/OEZDEMIR_VOLKAN_L_11-22.png?itok=t7-CBwn_",
+  "hero": {
+   "Wins by Knockout": "14",
+   "Wins by Submission": "2",
+   "First Round Finishes": "15"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Fribourg, Switzerland",
+   "Trains at": "Allstars Training Center",
+   "Fighting style": "Striker",
+   "Age": "36",
+   "Height": "74.00",
+   "Weight": "206.00",
+   "Octagon Debut": "Feb. 5, 2017",
+   "Reach": "75.00",
+   "Leg reach": "40.50"
+  }
+ },
+ "814e5233e2acf2ee": {
+  "status": "ok",
+  "slug": "charles-johnson",
+  "url": "https://www.ufc.com/athlete/charles-johnson",
+  "name": "Charles Johnson",
+  "nick": "\"Inner G\"",
+  "record": "20-9-0 (W-L-D)",
+  "division": "Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/JOHNSON_CHARLES_L_08-15.png?itok=0d3E5uii",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "4",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Topeka, United States",
+   "Trains at": "Fusion X-Cel",
+   "Age": "35",
+   "Height": "69.00",
+   "Weight": "126.00",
+   "Octagon Debut": "Jul. 23, 2022",
+   "Reach": "70.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "ab2b4ff41d6ebe0f": {
+  "status": "ok",
+  "slug": "alex-perez",
+  "url": "https://www.ufc.com/athlete/alex-perez",
+  "name": "Alex Perez",
+  "nick": null,
+  "record": "26-11-0 (W-L-D)",
+  "division": "Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/PEREZ_ALEX_L_08-29.png?itok=hDi458D_",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "7",
+   "First Round Finishes": "12"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Hanford, United States",
+   "Trains at": "Team Oyama",
+   "Fighting style": "Freestyle",
+   "Age": "34",
+   "Height": "66.00",
+   "Weight": "128.50",
+   "Octagon Debut": "Aug. 8, 2017",
+   "Reach": "65.50",
+   "Leg reach": "38.00"
+  }
+ },
+ "cbf5e6f231b55443": {
+  "status": "ok",
+  "slug": "yair-rodriguez",
+  "url": "https://www.ufc.com/athlete/yair-rodriguez",
+  "name": "Yair Rodriguez",
+  "nick": "\"El Pantera\"",
+  "record": "21-5-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-04/RODRIGUEZ_YAIR_L_04-12.png?itok=MbCovx1T",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "5",
+   "First Round Finishes": "6"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Hidalgo Del Parral, Mexico",
+   "Trains at": "Izzystyle wrestling & VFS Chicago",
+   "Fighting style": "Freestyle",
+   "Age": "34",
+   "Height": "71.00",
+   "Weight": "146.00",
+   "Octagon Debut": "Nov. 15, 2014",
+   "Reach": "71.00",
+   "Leg reach": "41.50"
+  }
+ },
+ "113df4fde64735c6": {
+  "status": "ok",
+  "slug": "davey-grant",
+  "url": "https://www.ufc.com/athlete/davey-grant",
+  "name": "Davey Grant",
+  "nick": "\"Dangerous\"",
+  "record": "18-8-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/GRANT_DAVEY_L_04-25.png?itok=eXuCU5Cp",
+  "hero": {
+   "Wins by Knockout": "4",
+   "Wins by Submission": "9",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Bishop Auckland, England",
+   "Trains at": "SBG Manchester",
+   "Fighting style": "MMA",
+   "Age": "40",
+   "Height": "68.00",
+   "Weight": "136.00",
+   "Octagon Debut": "Dec. 1, 2013",
+   "Reach": "69.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "2e19380f34871c6a": {
+  "status": "ok",
+  "slug": "dominick-reyes",
+  "url": "https://www.ufc.com/athlete/dominick-reyes",
+  "name": "Dominick Reyes",
+  "nick": "\"The Devastator\"",
+  "record": "17-5-0 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/REYES_DOMINICK_L_04-11.png?itok=7HSVtv1p",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "2",
+   "First Round Finishes": "12"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Apple Valley, United States",
+   "Trains at": "Cobra Kai Victorville",
+   "Fighting style": "Kickboxer",
+   "Age": "36",
+   "Height": "76.00",
+   "Weight": "206.00",
+   "Octagon Debut": "Jun. 26, 2017",
+   "Reach": "77.00",
+   "Leg reach": "43.50"
+  }
+ },
+ "99bd51917728c25d": {
+  "status": "ok",
+  "slug": "grant-dawson",
+  "url": "https://www.ufc.com/athlete/grant-dawson",
+  "name": "Grant Dawson",
+  "nick": "\"KGD\"",
+  "record": "25-3-1 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/DAWSON_GRANT_L_10-24.png?itok=btPQ07ht",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "14",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Cambria, United States",
+   "Trains at": "American Top Team",
+   "Age": "32",
+   "Height": "70.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Aug. 15, 2017",
+   "Reach": "72.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "3df5493bb279226f": {
+  "status": "ok",
+  "slug": "amanda-lemos",
+  "url": "https://www.ufc.com/athlete/amanda-lemos",
+  "name": "Amanda Lemos",
+  "nick": null,
+  "record": "15-7-1 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/LEMOS_AMANDA_L_08-08.png?itok=tJiVRMjJ",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "3",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "belem, Brazil",
+   "Trains at": "Marajo Brothers",
+   "Fighting style": "Boxing",
+   "Age": "39",
+   "Height": "64.00",
+   "Weight": "115.50",
+   "Octagon Debut": "Jul. 16, 2017",
+   "Reach": "65.00",
+   "Leg reach": "36.00"
+  }
+ },
+ "4144798612ef96e5": {
+  "status": "ok",
+  "slug": "edmen-shahbazyan",
+  "url": "https://www.ufc.com/athlete/edmen-shahbazyan",
+  "name": "Edmen Shahbazyan",
+  "nick": "\"The Golden Boy\"",
+  "record": "17-6-0 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/SHAHBAZYAN_EDMEN_L_09-19.png?itok=R5qwzicB",
+  "hero": {
+   "Wins by Knockout": "13",
+   "Wins by Submission": "1",
+   "First Round Finishes": "13"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Los Angeles, United States",
+   "Trains at": "Xtreme Couture - Las Vegas, NV",
+   "Fighting style": "MMA",
+   "Age": "28",
+   "Height": "74.50",
+   "Weight": "185.50",
+   "Octagon Debut": "Nov. 30, 2018",
+   "Reach": "74.00",
+   "Leg reach": "42.00"
+  }
+ },
+ "056c493bbd76a918": {
+  "status": "ok",
+  "slug": "henry-cejudo",
+  "url": "https://www.ufc.com/athlete/henry-cejudo",
+  "name": "Henry Cejudo",
+  "nick": "\"Triple C\"",
+  "record": "16-6-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-12/CEJUDO_HENRY_L_12-06.png?itok=Syxhnefg",
+  "hero": {
+   "Wins by Knockout": "8",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Los Angeles, United States",
+   "Trains at": "Fight Ready - Scottsdale, AZ",
+   "Fighting style": "Wrestling",
+   "Age": "39",
+   "Height": "64.00",
+   "Weight": "136.00",
+   "Octagon Debut": "Dec. 13, 2014",
+   "Reach": "64.00",
+   "Leg reach": "37.00"
+  }
+ },
+ "fd55393021a8c255": {
+  "status": "ok",
+  "slug": "gunnar-nelson",
+  "url": "https://www.ufc.com/athlete/gunnar-nelson",
+  "name": "Gunnar Nelson",
+  "nick": "\"Gunni\"",
+  "record": "19-6-1 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-03/NELSON_GUNNAR_L_03-22.png?itok=ofXlPzVr",
+  "hero": {
+   "Wins by Knockout": "4",
+   "Wins by Submission": "13",
+   "First Round Finishes": "12"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Akureyri, Iceland",
+   "Trains at": "Mjölnir, Reykjavik Iceland",
+   "Fighting style": "Grappler",
+   "Age": "36",
+   "Height": "71.00",
+   "Weight": "170.00",
+   "Octagon Debut": "Sep. 29, 2012",
+   "Reach": "72.00",
+   "Leg reach": "39.50"
+  }
+ },
+ "f14f644d41ade29f": {
+  "status": "ok",
+  "slug": "cody-brundage",
+  "url": "https://www.ufc.com/athlete/cody-brundage",
+  "name": "Cody Brundage",
+  "nick": null,
+  "record": "12-9-1 (W-L-D)",
+  "division": "Middleweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/BRUNDAGE_CODY_L_05-16.png?itok=6XckDt9Q",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "3",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Chapin, United States",
+   "Trains at": "Factory X",
+   "Fighting style": "Wrestler",
+   "Age": "32",
+   "Height": "72.00",
+   "Weight": "204.00",
+   "Octagon Debut": "Sep. 25, 2021",
+   "Reach": "72.00",
+   "Leg reach": "42.00"
+  }
+ },
+ "e8b731feff72294b": {
+  "status": "ok",
+  "slug": "alexa-grasso",
+  "url": "https://www.ufc.com/athlete/alexa-grasso",
+  "name": "Alexa Grasso",
+  "nick": null,
+  "record": "18-5-1 (W-L-D)",
+  "division": "Women's Flyweight Division",
+  "tags": [
+   "#6 PFP",
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/GRASSO_ALEXA_L_03-28.png?itok=O9csNdaV",
+  "hero": {
+   "Wins by Knockout": "5",
+   "Wins by Submission": "2",
+   "First Round Finishes": "6"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Guadalajara, Mexico",
+   "Trains at": "Lobo Gym MMA",
+   "Fighting style": "MMA",
+   "Age": "33",
+   "Height": "65.00",
+   "Weight": "126.00",
+   "Octagon Debut": "Nov. 6, 2016",
+   "Reach": "66.00",
+   "Leg reach": "37.50"
+  }
+ },
+ "e2f6b2769aaedd6c": {
+  "status": "ok",
+  "slug": "serghei-spivac",
+  "url": "https://www.ufc.com/athlete/serghei-spivac",
+  "name": "Serghei Spivac",
+  "nick": "\"Polar Bear\"",
+  "record": "18-7-0 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/SPIVAC_SERGHEI_L_08-22.png?itok=4Bn2kGKb",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "8",
+   "First Round Finishes": "11"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Moldova",
+   "Trains at": "Polar Bear Team",
+   "Fighting style": "Sambo",
+   "Age": "31",
+   "Height": "75.00",
+   "Weight": "251.00",
+   "Octagon Debut": "May. 4, 2019",
+   "Reach": "78.00",
+   "Leg reach": "44.00"
+  }
+ },
+ "8e5d953bdb9ae5e7": {
+  "status": "ok",
+  "slug": "loopy-godinez",
+  "url": "https://www.ufc.com/athlete/loopy-godinez",
+  "name": "Loopy Godinez",
+  "nick": null,
+  "record": "15-6-0 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-10/GODINEZ_LOOPY_L_10-10.png?itok=TUS1boe9",
+  "hero": {
+   "Wins by Knockout": "1",
+   "Wins by Submission": "2",
+   "First Round Finishes": "2"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Aguascalientes, Mexico",
+   "Trains at": "WKX / PT Team Vancouver",
+   "Age": "33",
+   "Height": "62.00",
+   "Weight": "115.00",
+   "Octagon Debut": "Apr. 17, 2021",
+   "Reach": "61.00",
+   "Leg reach": "35.00"
+  }
+ },
+ "b9f28e7045fdfce7": {
+  "status": "ok",
+  "slug": "raoni-barcelos",
+  "url": "https://www.ufc.com/athlete/raoni-barcelos",
+  "name": "Raoni Barcelos",
+  "nick": null,
+  "record": "22-6-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/BARCELOS_RAONI_L_01-18.png?itok=wbdKRVUn",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "3",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "State of Rio de Janeiro, Brazil",
+   "Trains at": "Top Brother",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "39",
+   "Height": "67.50",
+   "Weight": "136.00",
+   "Octagon Debut": "Jul. 14, 2018",
+   "Reach": "67.00",
+   "Leg reach": "39.00"
+  }
+ },
+ "b7b84ccd221be298": {
+  "status": "ok",
+  "slug": "nasrat-haqparast",
+  "url": "https://www.ufc.com/athlete/nasrat-haqparast",
+  "name": "Nasrat Haqparast",
+  "nick": null,
+  "record": "18-7-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-10/HAQPARAST_NASRAT_L_10-25.png?itok=mn2ANLv7",
+  "hero": {
+   "Wins by Knockout": "10",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Hamburg, Germany",
+   "Trains at": "Team Haqparast",
+   "Fighting style": "Muay Thai",
+   "Age": "31",
+   "Height": "70.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Oct. 21, 2017",
+   "Reach": "72.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "9e8f6c728eb01124": {
+  "status": "ok",
+  "slug": "justin-gaethje",
+  "url": "https://www.ufc.com/athlete/justin-gaethje",
+  "name": "Justin Gaethje",
+  "nick": "\"The Highlight\"",
+  "record": "28-5-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "#3 PFP",
+   "Active",
+   "Title Holder"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-06/GAETHJE_JUSTIN_R_BELT_06-14.png?itok=cyzUtrXX",
+  "hero": {
+   "Wins by Knockout": "21",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Tucson, United States",
+   "Trains at": "Genesis Training Center",
+   "Fighting style": "MMA",
+   "Age": "37",
+   "Height": "71.00",
+   "Weight": "155.00",
+   "Octagon Debut": "Jul. 8, 2017",
+   "Reach": "70.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "b50a426a33da0012": {
+  "status": "ok",
+  "slug": "sean-omalley",
+  "url": "https://www.ufc.com/athlete/sean-omalley",
+  "name": "Sean O'Malley",
+  "nick": "\"Suga\"",
+  "record": "20-3-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-06/OMALLEY_SEAN_L_06-14.png?itok=mk-P63ge",
+  "hero": {
+   "Wins by Knockout": "13",
+   "First Round Finishes": "9"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Helena, United States",
+   "Trains at": "MMA LAB - Glendale, AZ",
+   "Age": "31",
+   "Height": "71.00",
+   "Weight": "135.50",
+   "Octagon Debut": "Jul. 18, 2017",
+   "Reach": "72.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "8667caa0451d245b": {
+  "status": "ok",
+  "slug": "kennedy-nzechukwu",
+  "url": "https://www.ufc.com/athlete/kennedy-nzechukwu",
+  "name": "Kennedy Nzechukwu",
+  "nick": "\"Chosen\"",
+  "record": "14-7-1 (W-L-D)",
+  "division": "Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/NZECHUKWU_KENNEDY_L_08-22.png?itok=YliCidte",
+  "hero": {
+   "Wins by Knockout": "10",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "United States",
+   "Trains at": "War Room MMA",
+   "Fighting style": "Wrestler",
+   "Age": "34",
+   "Height": "77.00",
+   "Weight": "243.00",
+   "Octagon Debut": "Aug. 22, 2017",
+   "Reach": "83.00",
+   "Leg reach": "47.00"
+  }
+ },
+ "f4c49976c75c5ab2": {
+  "status": "ok",
+  "slug": "conor-mcgregor",
+  "url": "https://www.ufc.com/athlete/conor-mcgregor",
+  "name": "Conor McGregor",
+  "nick": "\"The Notorious\"",
+  "record": "22-7-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/MCGREGOR_CONOR_L_07-11.png?itok=oPFhXwIA",
+  "hero": {
+   "Wins by Knockout": "19",
+   "Wins by Submission": "1",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Dublin, Ireland",
+   "Trains at": "SBG Ireland",
+   "Age": "38",
+   "Height": "69.00",
+   "Weight": "156.00",
+   "Octagon Debut": "Apr. 6, 2013",
+   "Reach": "74.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "cd2c4d30c6e13b47": {
+  "status": "ok",
+  "slug": "marina-rodriguez",
+  "url": "https://www.ufc.com/athlete/marina-rodriguez",
+  "name": "Marina Rodriguez",
+  "nick": null,
+  "record": "17-6-2 (W-L-D)",
+  "division": "Women's Strawweight Division",
+  "tags": [
+   "Retired"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-05/RODRIGUEZ_MARINA_L_05-03.png?itok=CesxfjaE",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "1",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Retired",
+   "Hometown": "State of Rio Grande do Sul, Brazil",
+   "Fighting style": "Muay Thai",
+   "Age": "38",
+   "Height": "66.00",
+   "Weight": "115.50",
+   "Octagon Debut": "Sep. 23, 2018",
+   "Reach": "65.00",
+   "Leg reach": "38.50"
+  }
+ },
+ "4d8fa64202cee4c1": {
+  "status": "ok",
+  "slug": "jalin-turner",
+  "url": "https://www.ufc.com/athlete/jalin-turner",
+  "name": "Jalin Turner",
+  "nick": "\"The Tarantula\"",
+  "record": "16-9-0 (W-L-D)",
+  "division": "Lightweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/TURNER_JALIN_L_08-15.png?itok=Rt6o7Wx3",
+  "hero": {
+   "Wins by Knockout": "12",
+   "Wins by Submission": "4",
+   "First Round Finishes": "13"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Los Angeles, United States",
+   "Trains at": "Bloodline Combat Sports",
+   "Fighting style": "MMA",
+   "Age": "31",
+   "Height": "75.00",
+   "Weight": "155.00",
+   "Octagon Debut": "Oct. 7, 2018",
+   "Reach": "77.00",
+   "Leg reach": "46.00"
+  }
+ },
+ "bf7ad5628363eec9": {
+  "status": "ok",
+  "slug": "cody-stamann",
+  "url": "https://www.ufc.com/athlete/cody-stamann",
+  "name": "Cody Stamann",
+  "nick": "\"Spartan\"",
+  "record": "21-8-1 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/STAMANN_CODY_L_11-09.png?itok=5V0xnfsZ",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "2",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Grand Rapids, United States",
+   "Trains at": "Xtreme Couture - Las Vegas, NV",
+   "Fighting style": "Freestyle",
+   "Age": "35",
+   "Height": "66.50",
+   "Weight": "135.50",
+   "Octagon Debut": "Jul. 8, 2017",
+   "Reach": "64.50",
+   "Leg reach": "35.00"
+  }
+ },
+ "8a1f3b5c526cd6e6": {
+  "status": "ok",
+  "slug": "daniel-rodriguez",
+  "url": "https://www.ufc.com/athlete/daniel-rodriguez",
+  "name": "Daniel Rodriguez",
+  "nick": "\"D-Rod\"",
+  "record": "20-6-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/RODRIGUEZ_DANIEL_L_10-12.png?itok=zE9JhfZS",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "4",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Los Angeles, United States",
+   "Trains at": "10th Planet Jiu-Jitsu",
+   "Fighting style": "Freestyle",
+   "Age": "39",
+   "Height": "73.00",
+   "Weight": "170.00",
+   "Octagon Debut": "Feb. 15, 2020",
+   "Reach": "74.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "329e403448756217": {
+  "status": "ok",
+  "slug": "nathaniel-wood",
+  "url": "https://www.ufc.com/athlete/nathaniel-wood",
+  "name": "Nathaniel Wood",
+  "nick": "\"The Last Kingsman\"",
+  "record": "23-6-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-10/WOOD_NATHANIEL_L_10-25.png?itok=xpw74M8X",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "5",
+   "First Round Finishes": "7"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Carshalton, South London, England",
+   "Fighting style": "MMA",
+   "Age": "33",
+   "Height": "66.00",
+   "Weight": "145.00",
+   "Octagon Debut": "Jun. 1, 2018",
+   "Reach": "69.00",
+   "Leg reach": "39.00"
+  }
+ },
+ "9d19d9e4aa2662e8": {
+  "status": "ok",
+  "slug": "nicolas-dalby",
+  "url": "https://www.ufc.com/athlete/nicolas-dalby",
+  "name": "Nicolas Dalby",
+  "nick": "\"Danish Dynamite\"",
+  "record": "24-6-1 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-11/DALBY_NICOLAS_L_11-22.png?itok=MsZO3BbI",
+  "hero": {
+   "Wins by Knockout": "7",
+   "Wins by Submission": "4",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Fr. Vaerk Hundested, Denmark",
+   "Trains at": "Rumble Sports",
+   "Fighting style": "MMA",
+   "Age": "41",
+   "Height": "70.00",
+   "Weight": "170.50",
+   "Octagon Debut": "May. 30, 2015",
+   "Reach": "74.50",
+   "Leg reach": "43.00"
+  }
+ },
+ "bc711b6dd95c1af6": {
+  "status": "ok",
+  "slug": "mario-bautista",
+  "url": "https://www.ufc.com/athlete/mario-bautista",
+  "name": "Mario Bautista",
+  "nick": null,
+  "record": "18-3-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-02/BAUTISTA_MARIO_L_02-07.png?itok=Wpsbk8fU",
+  "hero": {
+   "Wins by Knockout": "3",
+   "Wins by Submission": "7",
+   "First Round Finishes": "5"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Winnemucca, United States",
+   "Trains at": "The MMA Lab",
+   "Fighting style": "Freestyle",
+   "Age": "33",
+   "Height": "69.00",
+   "Weight": "135.50",
+   "Octagon Debut": "Jan. 19, 2019",
+   "Reach": "72.00",
+   "Leg reach": "39.00"
+  }
+ },
+ "729d4bd5a6cd0a97": {
+  "status": "ok",
+  "slug": "lauren-murphy",
+  "url": "https://www.ufc.com/athlete/lauren-murphy",
+  "name": "Lauren Murphy",
+  "nick": "\"Lucky\"",
+  "record": "16-7-0 (W-L-D)",
+  "division": "Women's Flyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2023-01/MURPHY_LAUREN_L_01-19.png?itok=-SiFrfp0",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "1",
+   "First Round Finishes": "2"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Anchorage, United States",
+   "Trains at": "High Altitude Martial Arts",
+   "Fighting style": "MMA",
+   "Age": "41",
+   "Height": "65.00",
+   "Weight": "125.00",
+   "Octagon Debut": "Aug. 16, 2014",
+   "Reach": "67.00",
+   "Leg reach": "38.00"
+  }
+ },
+ "1ae8f3c723aacff4": {
+  "status": "ok",
+  "slug": "ricardo-ramos",
+  "url": "https://www.ufc.com/athlete/ricardo-ramos",
+  "name": "Ricardo Ramos",
+  "nick": null,
+  "record": "17-8-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-10/RAMOS_RICARDO_L_10-11.png?itok=p9mhA9zS",
+  "hero": {
+   "Wins by Knockout": "4",
+   "Wins by Submission": "7",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "Campinas, Brazil",
+   "Trains at": "The Fighting Nerds",
+   "Fighting style": "Jiu-Jitsu",
+   "Age": "30",
+   "Height": "69.00",
+   "Weight": "146.00",
+   "Octagon Debut": "Feb. 4, 2017",
+   "Reach": "72.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "447f9858ae78f921": {
+  "status": "ok",
+  "slug": "muslim-salikhov",
+  "url": "https://www.ufc.com/athlete/muslim-salikhov",
+  "name": "Muslim Salikhov",
+  "nick": "\"King of Kung Fu\"",
+  "record": "22-7-0 (W-L-D)",
+  "division": "Welterweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-11/SALIKHOV_MUSLIM_L_11-08.png?itok=r0fWreVE",
+  "hero": {
+   "Wins by Knockout": "15",
+   "Wins by Submission": "2",
+   "First Round Finishes": "15"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Russia",
+   "Trains at": "Abdulmanap Nurmagomedov School",
+   "Age": "42",
+   "Height": "71.00",
+   "Weight": "171.00",
+   "Octagon Debut": "Nov. 25, 2017",
+   "Reach": "70.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "751de04455cfaac0": {
+  "status": "ok",
+  "slug": "calvin-kattar",
+  "url": "https://www.ufc.com/athlete/calvin-kattar",
+  "name": "Calvin Kattar",
+  "nick": null,
+  "record": "23-10-0 (W-L-D)",
+  "division": "Featherweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-07/KATTAR_CALVIN_L_07-12.png?itok=poQjUSo-",
+  "hero": {
+   "Wins by Knockout": "11",
+   "Wins by Submission": "2",
+   "First Round Finishes": "10"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Methuen, United States",
+   "Trains at": "New England MMA",
+   "Fighting style": "Freestyle",
+   "Age": "37",
+   "Height": "71.00",
+   "Weight": "146.00",
+   "Octagon Debut": "Jul. 29, 2017",
+   "Reach": "72.00",
+   "Leg reach": "40.00"
+  }
+ },
+ "327d5f279895110d": {
+  "status": "ok",
+  "slug": "roman-dolidze",
+  "url": "https://www.ufc.com/athlete/roman-dolidze",
+  "name": "Roman Dolidze",
+  "nick": null,
+  "record": "15-6-0 (W-L-D)",
+  "division": "Light Heavyweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/DOLIDZE_ROMAN_L_03-21.png?itok=LBWQed7d",
+  "hero": {
+   "Wins by Knockout": "8",
+   "Wins by Submission": "3",
+   "First Round Finishes": "8"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Batumi, Georgia",
+   "Trains at": "Xtreme Couture - Las Vegas, NV",
+   "Fighting style": "MMA",
+   "Age": "38",
+   "Height": "74.00",
+   "Weight": "185.50",
+   "Octagon Debut": "Jul. 18, 2020",
+   "Reach": "76.00",
+   "Leg reach": "41.00"
+  }
+ },
+ "45f0cc9d18f35137": {
+  "status": "ok",
+  "slug": "chris-gutierrez",
+  "url": "https://www.ufc.com/athlete/chris-gutierrez",
+  "name": "Chris Gutierrez",
+  "nick": "\"El Guapo\"",
+  "record": "22-6-2 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-10/GUTIERREZ_CHRIS_L_10-04.png?itok=n5xQXYog",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "1",
+   "First Round Finishes": "4"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Jersey City, United States",
+   "Fighting style": "Freestyle",
+   "Age": "34",
+   "Height": "69.00",
+   "Weight": "136.00",
+   "Octagon Debut": "Nov. 30, 2018",
+   "Reach": "67.00",
+   "Leg reach": "39.00"
+  }
+ },
+ "f2477cf43c4975cc": {
+  "status": "ok",
+  "slug": "jonathan-martinez",
+  "url": "https://www.ufc.com/athlete/jonathan-martinez",
+  "name": "Jonathan Martinez",
+  "nick": "\"Dragon\"",
+  "record": "19-6-0 (W-L-D)",
+  "division": "Bantamweight Division",
+  "tags": [
+   "Active"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/MARTINEZ_JONATHAN_L_11-16.png?itok=bznVqcTr",
+  "hero": {
+   "Wins by Knockout": "9",
+   "Wins by Submission": "2",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Active",
+   "Hometown": "Los Angeles, United States",
+   "Trains at": "Ohana Academy",
+   "Fighting style": "Freestyle",
+   "Age": "30",
+   "Height": "68.00",
+   "Weight": "135.80",
+   "Octagon Debut": "Oct. 27, 2018",
+   "Reach": "70.00",
+   "Leg reach": "37.50"
+  }
+ },
+ "b9706f80d005036c": {
+  "status": "ok",
+  "slug": "ketlen-vieira",
+  "url": "https://www.ufc.com/athlete/ketlen-vieira",
+  "name": "Ketlen Vieira",
+  "nick": "\"Fenomeno\"",
+  "record": "16-5-0 (W-L-D)",
+  "division": "Women's Bantamweight Division",
+  "tags": [
+   "Not Fighting"
+  ],
+  "img": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/VIEIRA_KETLEN_L_05-16.png?itok=ieFIJTkH",
+  "hero": {
+   "Wins by Knockout": "2",
+   "Wins by Submission": "4",
+   "First Round Finishes": "3"
+  },
+  "bio": {
+   "Status": "Not Fighting",
+   "Hometown": "State of Amazonas, Brazil",
+   "Trains at": "Nova União",
+   "Fighting style": "Judo",
+   "Age": "35",
+   "Height": "68.00",
+   "Weight": "136.00",
+   "Octagon Debut": "Oct. 2, 2016",
+   "Reach": "68.00",
+   "Leg reach": "39.50"
+  }
+ }
+}
