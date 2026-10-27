@@ -1,5 +1,5 @@
 check,rows,note
-event names repaired via headline match,25,"{'UFC Fight Night: Lopes vs. Silva': 'Noche UFC: Lopes vs. Silva', 'UFC Fight Night: Grasso vs. Shevchenko 2': 'Noche UFC: Grasso vs. Shevchenko 2'}"
+event names repaired via headline match,25,"{'UFC Fight Night: Grasso vs. Shevchenko 2': 'Noche UFC: Grasso vs. Shevchenko 2', 'UFC Fight Night: Lopes vs. Silva': 'Noche UFC: Lopes vs. Silva'}"
 results missing event date,2,dropped
 duplicate fight URLs in results,25,dropped
 stat rows with no fighter/round,42,dropped

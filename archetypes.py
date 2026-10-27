@@ -430,6 +430,7 @@ def metrics(D):
     M["sig_att_pm"] = shrink_rate(D, "SIG.STR._A", sec)
     M["opp_sig_att_pm"] = shrink_rate(D, "O_SIG.STR._A", sec)
     M["total_str_pm"] = shrink_rate(D, "TOTAL STR._A", sec)
+    M["total_land_pm"] = shrink_rate(D, "TOTAL STR._L", sec)
     M["sig_acc"] = shrink_pct(D, "SIG.STR._L", "SIG.STR._A", PRIOR_SIG_ATT)
     D["_O_MISS"] = D["O_SIG.STR._A"] - D["O_SIG.STR._L"]
     M["sig_def"] = shrink_pct(D, "_O_MISS", "O_SIG.STR._A", PRIOR_SIG_ATT)
@@ -461,6 +462,7 @@ def metrics(D):
     M["ground_share"] = shrink_pct(D, "GROUND_L", "SIG.STR._L", 40)
     M["leg_pm"] = shrink_rate(D, "LEG_L", sec)
     M["leg_share"] = shrink_pct(D, "LEG_L", "SIG.STR._L", 40)
+    M["punch_share"] = 1 - M["leg_share"]                          # UFCStats doesn't split punches/kicks; leg strikes are ~all kicks
     M["body_share"] = shrink_pct(D, "BODY_L", "SIG.STR._L", 40)
     M["head_share"] = shrink_pct(D, "HEAD_L", "SIG.STR._L", 40)
     M["open_time_pct"] = shrink_pct(D, "OPEN_S", "RSEC", 600)
@@ -507,8 +509,8 @@ def score(P):
     G = (P.td15 + P.ctrl_pct + P.sub15) / 3            # grappling emphasis
     S = 1 - G                                           # striking emphasis
     sc = pd.DataFrame(index=P.index)
-    sc["Brawler"] = (.26 * P.sig_att_pm + .14 * P.slpm + .18 * P.sapm + .10 * I.sig_def + .08 * P.kd15
-                     + .06 * P.ko_win_share + .18 * S)
+    sc["Brawler"] = (.18 * P.sig_att_pm + .10 * P.total_str_pm + .12 * P.slpm + .16 * P.sapm + .10 * I.sig_def
+                     + .08 * P.kd15 + .06 * P.ko_win_share + .06 * P.punch_share + .14 * S)
     sc["Pressure Fighter"] = (.22 * P.slpm + .14 * P.sig_att_pm + .20 * P.late_output_ratio + .10 * P.total_str_pm
                               + .10 * P.str_diff + .08 * P.clinch_share + .08 * P.td_att15 + .08 * P.avg_fight_min)
     sc["Point Fighter"] = (.18 * P.slpm + .13 * P.sig_acc + .18 * P.str_diff + .09 * I.sapm + .09 * P.sig_def

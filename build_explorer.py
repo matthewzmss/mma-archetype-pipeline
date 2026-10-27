@@ -8,14 +8,14 @@ stats=[('slpm','Sig. landed / min',2,0),('sapm','Sig. absorbed / min',2,1),('sig
 ('leg_pm','Leg kicks / min',2,0),('clinch_share','Clinch strike share',3,0),('late_output_ratio','Late-round output',2,0),('ko_win_share','KO share of wins',3,0),('sub_win_share','Sub share of wins',3,0),('dec_win_share','Decision share of wins',3,0),('ko_loss_rate','KO-loss rate',3,1)]
 # every model metric: (key, label, group, direction 1=higher better/-1=lower better/0=style, format p=percent n=number i=count m=minutes x=ratio)
 mets=[('slpm','Sig. strikes landed / min','Striking',1,'n'),('sapm','Sig. strikes absorbed / min','Striking',-1,'n'),('sig_att_pm','Sig. strikes attempted / min','Striking',1,'n'),
-('opp_sig_att_pm','Opp. sig. attempts / min','Striking',0,'n'),('total_str_pm','Total strikes attempted / min','Striking',1,'n'),('sig_acc','Sig. strike accuracy','Striking',1,'p'),
+('opp_sig_att_pm','Opp. sig. attempts / min','Striking',0,'n'),('total_str_pm','Total strikes attempted / min','Striking',1,'n'),('total_land_pm','Total strikes landed / min','Striking',1,'n'),('sig_acc','Sig. strike accuracy','Striking',1,'p'),
 ('sig_def','Sig. strike defense','Striking',1,'p'),('str_diff','Strike differential / min','Striking',1,'n'),('kd15','Knockdowns / 15 min','Striking',1,'n'),
 ('kd_abs15','Knockdowns absorbed / 15 min','Striking',-1,'n'),('kd_per_100_landed','Knockdowns per 100 landed','Striking',1,'n'),
 ('clean_ko_pts','Clean KO points / fight','Knockout power',1,'n'),('early_ko_rate','Early KO/TKO credit / fight','Knockout power',1,'n'),
 ('ko_per_100_landed','KO wins per 100 landed','Knockout power',1,'n'),
 ('dist_att_open_pm','Distance attempts / open min','Distance striking',1,'n'),('dist_land_open_pm','Distance landed / open min','Distance striking',1,'n'),
 ('dist_abs_open_pm','Distance absorbed / open min','Distance striking',-1,'n'),('dist_acc','Distance accuracy','Distance striking',1,'p'),('dist_def','Distance defense','Distance striking',1,'p'),
-('head_share','Head share of sig. landed','Target & position',0,'p'),('body_share','Body share of sig. landed','Target & position',0,'p'),('leg_share','Leg share of sig. landed','Target & position',0,'p'),
+('head_share','Head share of sig. landed','Target & position',0,'p'),('body_share','Body share of sig. landed','Target & position',0,'p'),('leg_share','Leg share of sig. landed','Target & position',0,'p'),('punch_share','Non-leg share (punch-heavy)','Target & position',0,'p'),
 ('leg_pm','Leg strikes landed / min','Target & position',1,'n'),('clinch_share','Clinch share of sig. landed','Target & position',0,'p'),('ground_share','Ground share of sig. landed','Target & position',0,'p'),
 ('open_time_pct','Time at open distance','Target & position',0,'p'),
 ('td15','Takedowns / 15 min','Grappling',1,'n'),('td_att15','Takedown attempts / 15 min','Grappling',1,'n'),('td_acc','Takedown accuracy','Grappling',1,'p'),('td_def','Takedown defense','Grappling',1,'p'),
@@ -34,9 +34,11 @@ recipes={
   "note":"A clean KO is a finish UFCStats credits to a single strike (\"Punch to Head\", \"Kick to Head\", \"Flying Knee\"). Finishes from a flurry (\"Punches to Head\") count as TKOs. Each clean KO is worth 1 point plus an early bonus. Each KO/TKO from strikes earns early credit only. Early credit starts at 1.0 at the opening bell and halves every 5 minutes of fight time. Cuts, injuries and doctor or corner stoppages don't count.","items":[
   ("Clean one-shot KOs (bonus if early)",.30,1,["clean_ko_pts"]),("Early KO/TKO finishes",.25,1,["early_ko_rate"]),("Knockdowns / 15 min",.20,1,["kd15"]),
   ("KO wins per 100 strikes landed",.15,1,["ko_per_100_landed"]),("Short fights",.10,-1,["avg_fight_min"])]},
-"Brawler":{"d":"High-volume, high-risk striking. Throws a lot, takes a lot back and is happy to trade in the pocket.","items":[
-  ("Sig. strikes attempted / min",.26,1,["sig_att_pm"]),("Sig. strikes absorbed / min",.18,1,["sapm"]),("Sig. strikes landed / min",.14,1,["slpm"]),("Low strike defense",.10,-1,["sig_def"]),
-  ("Knockdowns / 15 min",.08,1,["kd15"]),("KO share of wins",.06,1,["ko_win_share"]),("Striking over grappling",.18,1,["S"])]},
+"Brawler":{"d":"High-volume, high-risk striking. Throws a lot, mostly with the hands, takes a lot back and is happy to trade in the pocket.",
+  "note":"UFCStats doesn't separate punches from kicks, so \"Punch-heavy\" is the share of significant strikes landed that aren't leg strikes (leg strikes are nearly all kicks). Head kicks and body kicks still count as punches here.","items":[
+  ("Sig. strikes attempted / min",.18,1,["sig_att_pm"]),("Sig. strikes absorbed / min",.16,1,["sapm"]),("Sig. strikes landed / min",.12,1,["slpm"]),
+  ("Total strikes attempted / min",.10,1,["total_str_pm"]),("Low strike defense",.10,-1,["sig_def"]),("Knockdowns / 15 min",.08,1,["kd15"]),
+  ("KO share of wins",.06,1,["ko_win_share"]),("Punch-heavy (few leg kicks)",.06,1,["punch_share"]),("Striking over grappling",.14,1,["S"])]},
 "Pressure Fighter":{"d":"Walks opponents down and outworks them. Output holds or rises in later rounds, with clinch work and takedown attempts mixed in, and fights tend to go long.","items":[
   ("Sig. strikes landed / min",.22,1,["slpm"]),("Late-round output (vs R1)",.20,1,["late_output_ratio"]),("Sig. strikes attempted / min",.14,1,["sig_att_pm"]),("Total strikes attempted / min",.10,1,["total_str_pm"]),
   ("Strike differential / min",.10,1,["str_diff"]),("Clinch share of sig. landed",.08,1,["clinch_share"]),("Takedown attempts / 15 min",.08,1,["td_att15"]),("Long fights",.08,1,["avg_fight_min"])]},
