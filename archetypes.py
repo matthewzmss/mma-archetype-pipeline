@@ -3,8 +3,9 @@ UFC fighter archetype classifier.
 
 Reads the UFCStats mirror (github.com/Greco1899/scrape_ufc_stats), cleans and validates
 round-level fight stats, builds recency-weighted, sample-size-shrunk per-fighter features
-with division baselines, then scores every active fighter on the 11 archetypes from
-MMA_Classifier.pdf and assigns a primary and secondary archetype.
+with division baselines, then scores every active fighter on 10 archetypes from
+MMA_Classifier.pdf and assigns a primary and secondary archetype. The PDF's "One Punch Man" is not a style
+(power sits on top of any style), so it is scored separately as a 0-100 power rating.
 
 Usage:  python archetypes.py <path-to-scrape_ufc_stats> <out_dir> [--as-of YYYY-MM-DD] [--active-months 24]
 """
@@ -18,6 +19,7 @@ PRIOR_MIN = 25.0               # minutes of division-average "ghost" fight time 
 PRIOR_SIG_ATT = 60.0           # attempts added to striking percentages
 PRIOR_TD_ATT = 8.0             # attempts added to takedown percentages
 PRIOR_WINS = 3.0               # wins added to win-method shares
+EARLY_HALF_LIFE_MIN = 5.0      # a KO's "early" credit halves for every 5 fight minutes elapsed (one round)
 MIN_POOL = 20                  # divisions smaller than this borrow a neighbour for baselines
 
 DIVISIONS = ["Flyweight", "Bantamweight", "Featherweight", "Lightweight", "Welterweight",
@@ -29,7 +31,7 @@ DIV_LIMIT = {"Flyweight": 125, "Bantamweight": 135, "Featherweight": 145, "Light
              "Women's Featherweight": 145}
 BASELINE_FALLBACK = {"Women's Featherweight": "Women's Bantamweight"}
 
-ARCHETYPES = ["One Punch Man", "Brawler", "Pressure Fighter", "Point Fighter", "Sniper",
+ARCHETYPES = ["Brawler", "Pressure Fighter", "Point Fighter", "Sniper",
               "Defensive Technician", "Submission Threat", "Grappler / Wrestler",
               "Point-Fighting Wrestler", "Ground-and-Pound Wrestler", "All-in-One"]
 WRESTLER_FAMILY = {"Grappler / Wrestler", "Point-Fighting Wrestler", "Ground-and-Pound Wrestler"}
@@ -254,12 +256,15 @@ def fight_results_long(r, fighters):
             continue
         method = str(x["METHOD"])
         det = str(x["DETAILS"])
+        # elapsed fight time at the finish (seconds from the opening bell)
+        er, rl = x["N_ROUNDS_FOUGHT"], x["RLEN"]
+        fin = (sum((rl + rl[-1:] * 10)[:int(er) - 1]) * 60 + x["END_SEC"]) if pd.notna(er) and x["END_SEC"] > 0 else np.nan
         for i in (0, 1):
             rows.append({
                 "URL": x["URL"], "DATE": x["DATE"], "EVENT": x["EVENT"], "DIV": x["DIV"],
                 "WEIGHTCLASS": x["WEIGHTCLASS"], "FIGHTER": parts[i], "OPP": parts[1 - i],
                 "RES": oc[i], "METHOD": method, "DETAILS": det,
-                "END_ROUND": x["N_ROUNDS_FOUGHT"], "TITLE": "Title" in str(x["WEIGHTCLASS"]),
+                "END_ROUND": x["N_ROUNDS_FOUGHT"], "FIN_SEC": fin, "TITLE": "Title" in str(x["WEIGHTCLASS"]),
                 "FID": resolve_name(parts[i], x["DIV"], f_by_name),
                 "OPP_FID": resolve_name(parts[1 - i], x["DIV"], f_by_name),
             })
@@ -272,6 +277,14 @@ def fight_results_long(r, fighters):
     L["IS_DEC"] = m.str.startswith("Decision")
     # ground-and-pound finish: KO/TKO whose details say the strikes came from a ground position
     L["IS_GNP_KO"] = L["IS_KO"] & L["DETAILS"].str.contains(r"From (?:Mount|Half Guard|Guard|Back Control|Side Control|North-South|Crucifix|Ground|Top)|Ground", regex=True)
+    # UFCStats has no KO vs TKO field; the finishing technique is singular for a one-shot KO ("Punch to Head")
+    # and plural for a flurry/TKO ("Punches to Head From Mount"). Cuts, injuries, corner and doctor stoppages are neither.
+    ko = m.eq("KO/TKO")
+    L["IS_STRIKE_KO"] = ko & L["DETAILS"].str.match(r"(?:Punch(?:es)?|Kicks?|Knees?|Elbows?|Flying|Spinning|Headbutts?|Slam)\b")
+    L["IS_CLEAN_KO"] = ko & L["DETAILS"].str.match(r"(?:Punch|Kick|Knee|Elbow|Flying|Spinning|Headbutt|Slam)\b")
+    # early credit: 1.0 at the opening bell, halving every EARLY_HALF_LIFE_MIN minutes (round midpoint if time missing)
+    fin_min = (L["FIN_SEC"] / 60).fillna((L["END_ROUND"] - 0.5) * 5)
+    L["EARLY"] = 0.5 ** (fin_min / EARLY_HALF_LIFE_MIN)
     return L
 
 
@@ -362,6 +375,10 @@ def build_features(rounds, L, fighters, as_of, active_months):
         "WSUB": g.apply(lambda d: (d.W * ((d.RES == "W") & d.IS_SUB)).sum(), include_groups=False),
         "WDEC": g.apply(lambda d: (d.W * ((d.RES == "W") & d.IS_DEC)).sum(), include_groups=False),
         "WF": g.apply(lambda d: d.W.sum(), include_groups=False),
+        # knockout power (recency-weighted): clean one-shot KOs worth 1 + early credit, strike KO/TKOs worth their early credit
+        "WCKO": g.apply(lambda d: (d.W * ((d.RES == "W") & d.IS_CLEAN_KO) * (1 + d.EARLY)).sum(), include_groups=False),
+        "WEKO": g.apply(lambda d: (d.W * ((d.RES == "W") & d.IS_STRIKE_KO) * d.EARLY).sum(), include_groups=False),
+        "WSKO": g.apply(lambda d: (d.W * ((d.RES == "W") & d.IS_STRIKE_KO)).sum(), include_groups=False),
         "WDECF": g.apply(lambda d: (d.W * d.IS_DEC).sum(), include_groups=False),
         "FIRST_UFC": g["DATE"].min(), "LAST_UFC": g["DATE"].max(),
         "LAST5": g.apply(lambda d: "".join(d.sort_values("DATE", ascending=False).RES.str[0].head(5)), include_groups=False),
@@ -459,6 +476,9 @@ def metrics(D):
     M["r1_finish_rate"] = (D["R1_FIN_W"] + 0.15 * 2) / (D["W"] + 2)
     M["avg_fight_min"] = (D["RAW_MIN"] + 11 * 2) / (D["STAT_FIGHTS"] + 2)
     M["ko_loss_rate"] = (D["KO_L"] + 0.12 * 3) / (D["UFC_FIGHTS"] + 3)
+    M["clean_ko_pts"] = shrink_pct(D, "WCKO", "WF", 3)              # per fight; a 1st-minute one-shot KO ~2, a late one ~1
+    M["early_ko_rate"] = shrink_pct(D, "WEKO", "WF", 3)             # per fight; strike KO/TKOs discounted by fight time elapsed
+    M["ko_per_100_landed"] = shrink_pct(D, "WSKO", "SIG.STR._L", 150) * 100
     M["ko_wins"] = D["KO_W"]
     M["sub_wins"] = D["SUB_W"]
     M["gnp_ko_wins"] = D["GNP_KO_W"]
@@ -474,13 +494,19 @@ def pct_by_div(M, D):
     return P
 
 
+def power_score(P):
+    """Knockout power, separate from style: clean one-shot KOs (bonus if early), early KO/TKOs, knockdowns,
+    KOs per strike landed, short fights. Returned as a 0-100 rank against all active fighters."""
+    raw = (.30 * P.clean_ko_pts + .25 * P.early_ko_rate + .20 * P.kd15 + .15 * P.ko_per_100_landed
+           + .10 * (1 - P.avg_fight_min))
+    return raw.rank(pct=True) * 100
+
+
 def score(P):
     I = 1 - P
     G = (P.td15 + P.ctrl_pct + P.sub15) / 3            # grappling emphasis
     S = 1 - G                                           # striking emphasis
     sc = pd.DataFrame(index=P.index)
-    sc["One Punch Man"] = (.28 * P.kd15 + .22 * P.kd_per_100_landed + .18 * P.ko_win_share + .10 * P.ko_wins
-                           + .08 * P.r1_finish_rate + .07 * I.avg_fight_min + .07 * S)
     sc["Brawler"] = (.26 * P.sig_att_pm + .14 * P.slpm + .18 * P.sapm + .10 * I.sig_def + .08 * P.kd15
                      + .06 * P.ko_win_share + .18 * S)
     sc["Pressure Fighter"] = (.22 * P.slpm + .14 * P.sig_att_pm + .20 * P.late_output_ratio + .10 * P.total_str_pm
@@ -597,6 +623,7 @@ def main():
     P = pct_by_div(M, D)
     sc, cats = score(P)
     C, fit = classify(sc, cats, D)
+    C["power"] = power_score(P).round(1)
     sw = strengths_weaknesses(P)
 
     base = D[["NAME", "NICKNAME", "DIV", "ROSTER_SOURCE", "AGE", "HEIGHT_IN", "REACH_IN", "APE", "STANCE", "UFC_FIGHTS", "W", "L", "D", "NC",

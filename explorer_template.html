@@ -10,7 +10,7 @@
 /* Dark is the default theme; data-theme="light" on <html> switches back to the light palette */
 :root{
   --bg:#131619; --panel:#1b1f23; --ink:#e7eae6; --muted:#9aa3ab; --line:#2d3338; --soft:#22272b;
-  --accent:#e0675a; --strike:#e08a55; --grap:#6fb0d6; --all:#a796e0; --good:#6fbf85; --bad:#e2765f;
+  --accent:#e0675a; --strike:#e08a55; --grap:#6fb0d6; --all:#a796e0; --good:#6fbf85; --bad:#e2765f; --power:#e3bd52;
   --track:#2a3035;
   --f-display:"Barlow Condensed","Arial Narrow",sans-serif;
   --f-body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
@@ -19,7 +19,7 @@
 }
 :root[data-theme="light"]{
   --bg:#f3f4f2; --panel:#ffffff; --ink:#1b1f24; --muted:#5d6670; --line:#d9ddd8; --soft:#e9ece8;
-  --accent:#b8352a; --strike:#c4622d; --grap:#2f6c8f; --all:#6b5aa6; --good:#3c7d4f; --bad:#b0432f; --track:#e4e7e2; color-scheme:light}
+  --accent:#b8352a; --strike:#c4622d; --grap:#2f6c8f; --all:#6b5aa6; --good:#3c7d4f; --bad:#b0432f; --power:#8f6a00; --track:#e4e7e2; color-scheme:light}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 32px}
@@ -149,6 +149,48 @@ table.cmp{width:100%;border-collapse:collapse;font-size:13px}
 .rb[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .fdet{font-size:12px;color:var(--muted)}
 .fdet a{color:var(--muted)}
+/* archetype breakdown page (shown in the card slot when a style chip is active) */
+.back{font-size:13px;color:var(--muted);text-decoration:none;align-self:flex-start}
+.back:hover{color:var(--ink)}
+.verdict .tag[data-arch]{cursor:pointer}
+.bar.plain .tr::after{display:none}
+.pwr{color:var(--power)}
+.pmeter{display:grid;grid-template-columns:auto minmax(60px,180px) auto auto;gap:8px;align-items:center;text-decoration:none;color:var(--ink);align-self:flex-start}
+.pmeter small{font-family:var(--f-display);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:13px;color:var(--muted)}
+.pmeter .tr{height:8px;background:var(--track);position:relative}
+.pmeter .fi{position:absolute;inset:0 auto 0 0;background:var(--power)}
+.pmeter b{font-family:var(--f-mono);font-weight:500;font-size:15px}
+.pmeter em{font-style:normal;font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.pmeter.el em{color:var(--power)}
+.pmeter:hover small{color:var(--ink)}
+.ahead{border-left:4px solid var(--ac);padding-left:14px;display:flex;flex-direction:column;gap:6px}
+.ahead .fam{font-family:var(--f-display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:13px;color:var(--ac)}
+.ahead p{margin:0;max-width:62ch}
+.rbar{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr) 40px;gap:10px;align-items:center;font-size:13px}
+.rbar .lab{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rbar .tr{height:9px;background:var(--track);position:relative}
+.rbar .fi{position:absolute;inset:0 auto 0 0}
+.rbar .num{font-family:var(--f-mono);font-size:12px;text-align:right}
+.inv{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+@media (max-width:560px){.rbar{grid-template-columns:minmax(0,150px) minmax(0,1fr) 40px}}
+table.sig{width:100%;border-collapse:collapse;font-size:13px}
+.sig th,.sig td{padding:5px 6px;border-bottom:1px solid var(--soft);text-align:right}
+.sig th:first-child,.sig td:first-child{text-align:left}
+.sig thead th{font-family:var(--f-display);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:12px;color:var(--muted)}
+.sig td{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.sig td:first-child{font-family:var(--f-body)}
+.sig td.hi{color:var(--ac);font-weight:500}
+.exg{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px}
+.exc{background:var(--bg);border:1px solid var(--line);color:var(--ink);font:inherit;text-align:left;padding:0;cursor:pointer;display:flex;flex-direction:column;min-width:0}
+.exc:hover{border-color:var(--ac)}
+.exc:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.exc .ph{height:150px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;background:radial-gradient(ellipse at 50% 95%,var(--soft),transparent 70%);border-bottom:2px solid var(--ac)}
+.exc .ph img{height:100%;width:100%;object-fit:contain;object-position:bottom}
+.exc .ph img+span{display:none}
+.exc .ph span{font-family:var(--f-display);font-weight:700;font-size:44px;color:var(--line);align-self:center}
+.exc .cap{padding:6px 8px;display:flex;flex-direction:column;gap:1px;min-width:0}
+.exc .cap b{font-weight:600;font-size:14px;line-height:1.2}
+.exc .cap small{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
 @media (prefers-reduced-motion:no-preference){.bar .fi{transition:width .25s ease}}
 </style>
 
@@ -156,7 +198,7 @@ table.cmp{width:100%;border-collapse:collapse;font-size:13px}
 <header>
   <div>
     <h1>UFC <span>Style</span> Index</h1>
-    <p class="sub">Every active UFC fighter scored on 11 fighting archetypes from round-by-round UFCStats data, ranked against their own division.</p>
+    <p class="sub">Every active UFC fighter scored on 10 fighting styles plus a knockout-power rating, from round-by-round UFCStats data, ranked against their own division.</p>
   </div>
   <div class="meta"><span id="m-n"></span><span id="m-asof"></span></div>
 </header>
@@ -174,8 +216,11 @@ table.cmp{width:100%;border-collapse:collapse;font-size:13px}
       <select id="ros" aria-label="Roster status">
         <option value="">All active</option><option value="hide">Hide possible releases</option>
       </select>
+      <select id="match" aria-label="Style match" hidden>
+        <option value="">Primary or secondary</option><option value="p">Primary only</option>
+      </select>
       <select id="sort" aria-label="Sort">
-        <option value="name">Sort: name</option><option value="fit">Sort: primary fit</option><option value="last">Sort: most recent fight</option>
+        <option value="name">Sort: name</option><option value="fit">Sort: primary fit</option><option value="last">Sort: most recent fight</option><option value="power">Sort: power</option>
       </select>
     </div>
     <div class="count" id="count"></div>
@@ -191,11 +236,11 @@ table.cmp{width:100%;border-collapse:collapse;font-size:13px}
 <script>
 const DATA=JSON.parse(document.getElementById('data').textContent);
 const A=DATA.meta.archetypes, S=DATA.meta.stats, F=DATA.f;
-const FAM={"One Punch Man":"strike","Brawler":"strike","Pressure Fighter":"strike","Point Fighter":"strike","Sniper":"strike","Defensive Technician":"strike",
+const FAM={"Power":"power","Brawler":"strike","Pressure Fighter":"strike","Point Fighter":"strike","Sniper":"strike","Defensive Technician":"strike",
  "Submission Threat":"grap","Grappler / Wrestler":"grap","Point-Fighting Wrestler":"grap","Ground-and-Pound Wrestler":"grap","All-in-One":"all"};
 const col=a=>`var(--${FAM[a]})`;
 const DIVS=["Flyweight","Bantamweight","Featherweight","Lightweight","Welterweight","Middleweight","Light Heavyweight","Heavyweight","Women's Strawweight","Women's Flyweight","Women's Bantamweight"];
-const st={q:"",div:"",conf:"",ros:"",arch:"",sort:"name",sel:null,tab:"ov"};
+const st={q:"",div:"",conf:"",ros:"",arch:"",match:"",sort:"name",sel:null,tab:"ov",view:"fighter"};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
@@ -203,8 +248,8 @@ $('m-n').textContent=`${F.length} active fighters`;
 $('m-asof').textContent=`Data through ${DATA.meta.asof}`;
 $('div').innerHTML='<option value="">All divisions</option>'+DIVS.filter(d=>F.some(f=>f.d===d)).map(d=>`<option>${esc(d)}</option>`).join('');
 try{const s=JSON.parse(localStorage.getItem('usi')||'{}');Object.assign(st,s);}catch(e){}
-function save(){try{localStorage.setItem('usi',JSON.stringify({div:st.div,sort:st.sort,tab:st.tab}))}catch(e){}}
-$('div').value=st.div;$('sort').value=st.sort;
+function save(){try{localStorage.setItem('usi',JSON.stringify({div:st.div,sort:st.sort,tab:st.tab,match:st.match}))}catch(e){}}
+$('div').value=st.div;$('sort').value=st.sort;$('match').value=st.match;
 
 function filtered(){
   const q=norm(st.q);
@@ -213,22 +258,29 @@ function filtered(){
 }
 function renderDist(base){
   const counts={};A.forEach(a=>counts[a]=0);base.forEach(f=>counts[f.p]++);
-  $('dist').innerHTML=A.map(a=>`<button class="chip" aria-pressed="${st.arch===a}" data-a="${esc(a)}"><i style="background:${col(a)}"></i>${esc(a)} <b>${counts[a]}</b></button>`).join('');
+  $('dist').innerHTML=A.map(a=>`<button class="chip" aria-pressed="${st.arch===a}" data-a="${esc(a)}"><i style="background:${col(a)}"></i>${esc(a)} <b>${counts[a]}</b></button>`).join('')
+    +`<button class="chip" aria-pressed="${st.arch==="Power"}" data-a="Power" title="Knockout-power rating (not a style)"><i style="background:${col("Power")}"></i>Elite power <b>${base.filter(elite).length}</b></button>`;
 }
+const ELITE=90,elite=f=>(f.pw??0)>=ELITE;
+const pwTier=p=>p>=ELITE?"Elite":p>=75?"High":p>=40?"Average":"Low";
 function renderList(){
   const base=filtered(); renderDist(base);
-  let r=st.arch?base.filter(f=>f.p===st.arch||f.s===st.arch):base;
+  const styleOn=st.arch&&st.arch!=="Power",prim=styleOn&&st.match==="p";
+  $('match').hidden=!styleOn;
+  let r=st.arch==="Power"?base.filter(elite):styleOn?base.filter(f=>f.p===st.arch||(!prim&&f.s===st.arch)):base;
   const pi=f=>A.indexOf(f.p);
   if(st.sort==="name")r.sort((a,b)=>a.n.localeCompare(b.n));
   if(st.sort==="fit")r.sort((a,b)=>(b.f[pi(b)]??0)-(a.f[pi(a)]??0));
   if(st.sort==="last")r.sort((a,b)=>b.last.localeCompare(a.last));
-  $('count').textContent=`${r.length} fighter${r.length===1?"":"s"}`+(st.arch?` with ${st.arch} as primary or secondary`:"");
+  if(st.sort==="power")r.sort((a,b)=>(b.pw??0)-(a.pw??0));
+  $('count').textContent=`${r.length} fighter${r.length===1?"":"s"}`+(st.arch==="Power"?` with elite power (rating ${ELITE}+)`:st.arch?` with ${st.arch} as ${prim?"primary style":"primary or secondary"}`:"");
   if(!r.length){$('rows').innerHTML='<div class="empty">No fighters match these filters.</div>';return}
-  $('rows').innerHTML=r.map(f=>`<div class="row" role="option" tabindex="0" data-id="${f.id}" aria-selected="${st.sel===f.id}">
+  $('rows').innerHTML=r.map(f=>`<div class="row" role="option" tabindex="0" data-id="${f.id}" aria-selected="${st.view!=="arch"&&st.sel===f.id}">
     <div class="rn">${esc(f.n)}</div><div class="rd">${esc(f.rec)}</div>
     <div class="ra"><span class="tag" style="background:${col(f.p)}">${esc(f.p)}</span>${f.s?`<span class="tag sec" style="color:${col(f.s)}">${esc(f.s)}</span>`:""}</div>
-    <div class="rd conf">${esc(f.d.replace("Women's ","W ").replace("weight","wt"))} · ${f.c}${f.src.includes('may be released')?' · ?':''}</div></div>`).join('');
-  if(!st.sel||!r.some(f=>f.id===st.sel)){select(r[0].id,false)}
+    <div class="rd conf">${esc(f.d.replace("Women's ","W ").replace("weight","wt"))} · ${f.c}${f.src.includes('may be released')?' · ?':''}${elite(f)?` · <span class="pwr">PWR ${Math.round(f.pw)}</span>`:""}</div></div>`).join('');
+  if(!st.sel||!r.some(f=>f.id===st.sel))st.sel=r[0].id;
+  if(st.view==="fighter"&&(!cur||cur.id!==st.sel))select(st.sel,false);
 }
 function bar(label,pct,num,top,neutral,tip){
   const w=pct==null?0:Math.round(pct*100);
@@ -264,10 +316,59 @@ function stack(label,parts){const t=parts.reduce((s,p)=>s+p[1],0)||1;
 
 let cur=null;
 function select(id,scroll=true){
-  st.sel=id;const f=F.find(x=>x.id===id);if(!f)return;cur=f;
+  st.sel=id;const f=F.find(x=>x.id===id);if(!f)return;cur=f;st.view="fighter";
   document.querySelectorAll('.row').forEach(r=>r.setAttribute('aria-selected',r.dataset.id===id));
-  renderCard();$('card').scrollTop=0;
-  if(scroll){const r=$('card').getBoundingClientRect();if(r.top<0||r.top>window.innerHeight*0.6)$('card').scrollIntoView({behavior:'smooth',block:'start'});}
+  renderCard();if(scroll)reveal();
+}
+function reveal(){$('card').scrollTop=0;const r=$('card').getBoundingClientRect();if(r.top<0||r.top>window.innerHeight*0.6)$('card').scrollIntoView({behavior:'smooth',block:'start'})}
+function openArch(a){
+  st.arch=a;st.view="arch";renderList();renderArch();reveal();
+}
+const MK=Object.fromEntries(DATA.meta.mets.map((m,i)=>[m[0],i]));
+const med=xs=>{const s=xs.filter(x=>x!=null).sort((a,b)=>a-b);if(!s.length)return null;const m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
+const CONF={High:0,Medium:1,Low:2};
+const ini=n=>n.split(/\s+/).map(w=>w[0]).slice(0,2).join("");
+function renderArch(){
+  // the Power page reuses this layout: its group is the elite-power fighters (rating 90+) instead of a style's primaries
+  const a=st.arch,isP=a==="Power",R=DATA.meta.recipes[a],ai=A.indexOf(a),c=col(a);
+  const fitOf=f=>(isP?f.pw:f.f[ai])??0,who=isP?"elite-power fighter":a;
+  const P=isP?F.filter(elite):F.filter(f=>f.p===a),nS=isP?F.filter(f=>f.pw>=75&&!elite(f)).length:F.filter(f=>f.s===a).length,hi=P.filter(f=>f.c==="High").length;
+  const sum=k=>P.reduce((s,f)=>s+f[k],0),W=sum("w"),Lo=sum("l");
+  const fam={strike:"Striking style",grap:"Grappling style",all:"Complete fighter",power:"Rating, not a style"}[FAM[a]];
+  const maxw=Math.max(...R.items.map(i=>i[1]));
+  const sig=[...new Set(R.items.flatMap(i=>i[3]))].filter(k=>k!=="S").map(k=>{const i=MK[k],m=DATA.meta.mets[i];
+    return {l:m[1],t:m[4],g:med(P.map(f=>f.m[i][0])),all:med(F.map(f=>f.m[i][0])),p:med(P.map(f=>f.m[i][1]))}});
+  const ex=[...P].sort((x,y)=>(isP?0:CONF[x.c]-CONF[y.c])||fitOf(y)-fitOf(x)).slice(0,12);
+  const divs=[...DIVS,...new Set(F.map(f=>f.d).filter(d=>!DIVS.includes(d)))].map(d=>[d,P.filter(f=>f.d===d).length,F.filter(f=>f.d===d).length]).filter(x=>x[2]);
+  const maxShare=Math.max(...divs.map(([,k,n])=>k/n))||1;
+  const sec={};P.forEach(f=>{const s=isP?f.p:f.s;if(s)sec[s]=(sec[s]||0)+1});
+  const secs=Object.entries(sec).sort((x,y)=>y[1]-x[1]).slice(0,isP?10:6),maxSec=secs.length?secs[0][1]:1;
+  const nStrike=P.filter(f=>FAM[f.p]==="strike").length;
+  const row=(lab,frac,num,tip)=>`<div class="bar plain"><span class="lab" title="${esc(tip)}">${lab}</span><span class="tr"><span class="fi" style="width:${Math.round(frac*100)}%;background:${c}"></span></span><span class="num">${num}</span></div>`;
+  $('card').innerHTML=`
+    <div class="ahead" style="--ac:${c}"><span class="fam">${fam}</span><p class="cname">${isP?"Power rating":esc(a)}</p><p>${esc(R.d)}</p></div>
+    <div class="tiles">
+      ${isP?tile("Elite power",P.length,`rating ${ELITE}+ · top 10%`)+tile("High power",nS,"rating 75–89")+tile("Elite: strikers",nStrike,`${P.length-nStrike} grapplers / all-round`)
+        :tile("Primary style",P.length,`${pc(P.length,F.length)} of active fighters`)+tile("Secondary style",nS,"fighters")+tile("High confidence",hi,`${pc(hi,P.length)} of primary`)}
+      ${tile("Combined UFC record",`${W}-${Lo}`,`${pc(W,W+Lo)} wins`)}
+      ${tile("Wins by KO/TKO",pc(sum("ko"),W),`${sum("ko")} wins`)}${tile("Wins by sub",pc(sum("sb"),W),`${sum("sb")} wins`)}
+      ${tile("Wins by decision",pc(sum("dc"),W),`${sum("dc")} wins`)}${tile("Losses by KO/TKO",pc(sum("kol"),Lo),`${sum("kol")} losses`)}
+    </div>
+    <div><h3>How the model scores it</h3><div class="bars">${R.items.map(([l,w,d])=>`<div class="rbar"><span class="lab" title="${esc(l)}">${esc(l)}${d<0?' <span class="inv" title="A lower value scores higher">↓</span>':""}</span><span class="tr"><span class="fi" style="width:${Math.round(100*w/maxw)}%;background:${c}"></span></span><span class="num">${Math.round(w*100)}%</span></div>`).join('')}</div>
+      ${R.note?`<p class="note">${esc(R.note)}</p>`:""}
+      <p class="note">Each ingredient is the fighter's percentile rank within their own division (↓ = a lower value scores higher). The weighted total is then ranked against every active fighter to give the 0–100 ${isP?"power rating":"fit score"}.</p></div>
+    <div><h3>What sets them apart</h3><table class="sig" style="--ac:${c}"><thead><tr><th>Median</th><th>${isP?"Elite power":esc(a)}</th><th>All fighters</th><th>Div. rank</th></tr></thead><tbody>
+      ${sig.map(s=>`<tr><td>${esc(s.l)}</td><td class="hi">${fmtMet(s.g,s.t)}</td><td>${fmtMet(s.all,s.t)}</td><td>${s.p==null?"–":ord(Math.round(s.p*100))}</td></tr>`).join('')}</tbody></table>
+      <p class="note">Div. rank is where the typical ${esc(who)} sits within their own division (50th = average).</p></div>
+    <div><h3>Best examples</h3><div class="exg" style="--ac:${c}">${ex.map(f=>`<button class="exc" data-go="${f.id}"><span class="ph">${f.u&&f.u.img?`<img src="${esc(f.u.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<span>${esc(ini(f.n))}</span></span>
+      <span class="cap"><b>${esc(f.n)}</b><small>${esc(f.d.replace("Women's ","W ").replace("weight","wt"))} · ${isP?"power":"fit"} ${fitOf(f).toFixed(0)}</small><small>${isP?esc(f.p):f.c+" confidence"}</small></span></button>`).join('')}</div></div>
+    <div class="twocol">
+      <div><h3>Where they fight</h3><div class="bars">${divs.map(([d,k,n])=>row(esc(d),k/n/maxShare,k,`${k} of ${n} ${d} fighters (${pc(k,n)})`)).join('')}</div></div>
+      <div><h3>${isP?"Their fighting styles":"Usually paired with"}</h3><div class="bars">${secs.map(([s,k])=>row(`<a href="#" data-arch="${esc(s)}" style="color:inherit">${esc(s)}</a>`,k/maxSec,k,
+        isP?`${k} elite-power fighters are primarily ${s}`:`${k} ${a}s have ${s} as their secondary style`)).join('')||'<p class="note">No secondary styles.</p>'}</div></div>
+    </div>
+    <p class="note">${isP?`The list on the left now shows the fighters with elite power (rating ${ELITE}+). Click the Elite power chip again to close this page.`
+      :`The list on the left now shows the fighters with ${esc(a)} as their ${st.match==="p"?"primary style":"primary or secondary style (switch the filter to “Primary only” to narrow it)"}. Click the ${esc(a)} chip again to close this page.`}</p>`;
 }
 function renderCard(){
   const f=cur,u=f.u;
@@ -276,14 +377,15 @@ function renderCard(){
   const unit={"Weight":" lb","Leg reach":'"'};
   const bio=u?Object.entries(u.bio).filter(([k,v])=>v&&!["Age","Height","Reach","Status"].includes(k))
     .map(([k,v])=>[k,/^\d+(\.\d+)?$/.test(v)?(+v)+(unit[k]||""):v]):[];
-  $('card').innerHTML=`
+  $('card').innerHTML=`${st.arch?`<a href="#" class="back" data-arch="${esc(st.arch)}">← ${esc(st.arch)} breakdown</a>`:""}
     <div class="hero">${u&&u.img?`<div class="photo"><img src="${esc(u.img)}" alt="${esc(f.n)}" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`:""}
     <div class="hinfo">
       <div><p class="cname">${esc(f.n)}</p>${f.k?`<span class="cnick">“${esc(f.k)}”</span>`:""}</div>
       ${tags.length?`<div class="ptags">${tags.map(([t,h])=>`<span class="ptag${h?' hot':''}">${esc(t)}</span>`).join('')}</div>`:""}
-      <div class="verdict"><span class="tag" style="background:${col(f.p)}">${esc(f.p)}</span>${f.s?`<span class="tag sec" style="color:${col(f.s)}">${esc(f.s)}</span>`:""}
+      <div class="verdict"><span class="tag" data-arch="${esc(f.p)}" title="See the ${esc(f.p)} breakdown" style="background:${col(f.p)}">${esc(f.p)}</span>${f.s?`<span class="tag sec" data-arch="${esc(f.s)}" title="See the ${esc(f.s)} breakdown" style="color:${col(f.s)}">${esc(f.s)}</span>`:""}
         <span class="conf">${f.c} confidence</span></div>
       <div class="ext">${u&&u.rec?`Pro record <b>${esc(u.rec)}</b> · `:""}UFC record <b>${esc(f.rec)}</b>${u?` · <a href="${esc(u.url)}" target="_blank" rel="noopener">UFC.com profile ↗</a>`:""}</div>
+      ${f.pw==null?"":`<a href="#" class="pmeter${elite(f)?" el":""}" data-arch="Power" title="Knockout-power rating: how it works"><small>Power</small><span class="tr"><span class="fi" style="width:${f.pw}%"></span></span><b>${Math.round(f.pw)}</b><em>${pwTier(f.pw)}</em></a>`}
       ${bio.length?`<dl class="bio">${bio.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>`:""}
     </div></div>
     <div class="tabs" role="tablist">${TABS.map(([k,l])=>`<button role="tab" data-tab="${k}" aria-selected="${st.tab===k}">${l}</button>`).join('')}</div>
@@ -369,10 +471,13 @@ $('div').addEventListener('change',e=>{st.div=e.target.value;save();renderList()
 $('conf').addEventListener('change',e=>{st.conf=e.target.value;renderList()});
 $('ros').addEventListener('change',e=>{st.ros=e.target.value;renderList()});
 $('sort').addEventListener('change',e=>{st.sort=e.target.value;save();renderList()});
-$('dist').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;st.arch=st.arch===b.dataset.a?"":b.dataset.a;renderList()});
+$('match').addEventListener('change',e=>{st.match=e.target.value;save();renderList();if(st.view==="arch")renderArch()});
+$('dist').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;
+  if(st.arch===b.dataset.a){st.arch="";st.view="fighter";renderList();select(st.sel,false)}else openArch(b.dataset.a)});
 $('rows').addEventListener('click',e=>{const r=e.target.closest('.row');if(r)select(r.dataset.id)});
 $('card').addEventListener('click',e=>{
   const go=e.target.closest('[data-go]');if(go){e.preventDefault();select(go.dataset.go);return}
+  const ar=e.target.closest('[data-arch]');if(ar){e.preventDefault();openArch(ar.dataset.arch);return}
   const tb=e.target.closest('[data-tab]');if(tb){st.tab=tb.dataset.tab;save();const y=$('card').scrollTop;renderCard();$('card').scrollTop=Math.min(y,$('card').querySelector('.tabs').offsetTop);return}
   const rb=e.target.closest('[data-rd]');if(rb){const d=rb.closest('.fx');d.querySelector('.fb').innerHTML=fightBody(cur,cur.fi[+d.dataset.i],+rb.dataset.rd)}});
 $('rows').addEventListener('keydown',e=>{const r=e.target.closest('.row');if(!r)return;
